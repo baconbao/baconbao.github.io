@@ -6,7 +6,7 @@ body {
     background: #f0f0f0;
     font-family: 'Segoe UI', 'Microsoft JhengHei', '微軟正黑體', 'Heiti TC', 'WenQuanYi Zen Hei', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: calc(16px + 0.33vw);
+    font-size: calc(14px + 0.33vw);
 }
 h1, h2, h3, h4, h5 {
     margin: 0;
