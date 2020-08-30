@@ -5,6 +5,7 @@
  * @link https://baconbao.github.io
  */
 import React from 'react';
+import ReactGA from 'react-ga';
 import { Head, useSiteData } from 'react-static';
 import { Link } from '../components/Router';
 import './AppMain.css';
@@ -25,7 +26,12 @@ const aElementBlinkOpen = {
 const handleGaEvent = (type, tag) => {
     switch (type) {
     case 'link': {
-        window.ga('send', 'event', 'link', tag);
+        if (typeof window !== 'undefined') {
+            ReactGA.event({
+                category: 'link',
+                action: tag,
+            });
+        }
         break;
     }
     default: break;
@@ -314,34 +320,48 @@ const PageHead = ({ data }) => {
     );
 };
 
-export default (data) => (
-    <div>
-        <PageHead data={data} />
-        <LanguageCard lang={data.lang} />
-        <MainCard data={data.main} symbol={data.symbol} />
-        <ActivityCard
-            Sub={() => (
-                <>
-                    <ExpBlock data={data.exp} symbol={data.symbol} />
-                    <EduBlock data={data.edu} symbol={data.symbol} />
-                    <InventBlock data={data.invent} symbol={data.symbol} />
-                    <PublicationBlock data={data.publication} symbol={data.symbol} />
-                    <AwardBlock data={data.award} symbol={data.symbol} />
-                    <NonprofitBlock data={data.nonprofit} symbol={data.symbol} />
-                    <EsportBlock data={data.esport} symbol={data.symbol} />
-                </>
-            )}
-        />
-        <FooterCard
-            Sub={() => (
-                <>
-                    <ContactBlock data={data.contact} symbol={data.symbol} />
-                    <br />
-                    <SocialBlock data={data.social} symbol={data.symbol} />
-                    <br />
-                    <CopyrightCard />
-                </>
-            )}
-        />
-    </div>
-);
+export default (data) => {
+    /*
+     * Launch GA tracking
+     *
+     */
+    if (typeof window !== 'undefined') {
+        ReactGA.initialize('UA-11047041-24');
+        ReactGA.ga('send', 'pageview');
+    }
+    /*
+     * Main
+     *
+     */
+    return (
+        <div>
+            <PageHead data={data} />
+            <LanguageCard lang={data.lang} />
+            <MainCard data={data.main} symbol={data.symbol} />
+            <ActivityCard
+                Sub={() => (
+                    <>
+                        <ExpBlock data={data.exp} symbol={data.symbol} />
+                        <EduBlock data={data.edu} symbol={data.symbol} />
+                        <InventBlock data={data.invent} symbol={data.symbol} />
+                        <PublicationBlock data={data.publication} symbol={data.symbol} />
+                        <AwardBlock data={data.award} symbol={data.symbol} />
+                        <NonprofitBlock data={data.nonprofit} symbol={data.symbol} />
+                        <EsportBlock data={data.esport} symbol={data.symbol} />
+                    </>
+                )}
+            />
+            <FooterCard
+                Sub={() => (
+                    <>
+                        <ContactBlock data={data.contact} symbol={data.symbol} />
+                        <br />
+                        <SocialBlock data={data.social} symbol={data.symbol} />
+                        <br />
+                        <CopyrightCard />
+                    </>
+                )}
+            />
+        </div>
+    );
+};
