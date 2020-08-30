@@ -258,6 +258,7 @@ const MainCard = ({ data }) => (
         <div className="inner">
             <h1 id="mainTitle">
                 {data.hello}
+                {' '}
                 <span id="name">
                     {data.name}
                     {' '}
