@@ -9,7 +9,7 @@ const data = {
     lang: 'en-us',
     pageTitle: 'BaconBao - I love exploring the possiblities of technology!',
     pageDescription: 'Hi, I am BaconBao, I love exploring the possiblities of technology!',
-    pageOgImage: 'http://baconbao.github.io/img/ogimage_en.jpg',
+    pageOgImage: 'images/ogimage_en.jpg',
     symbol: {
         and: ', ',
     },

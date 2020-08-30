@@ -307,7 +307,7 @@ const PageHead = ({ data }) => {
                 {data.pageTitle}
             </title>
             <meta name="description" content={data.pageDescription} />
-            <meta property="og:image" content={`${mainRemoteHost}/images/ogimage.jpg`} />
+            <meta property="og:image" content={`${mainRemoteHost}/${data.pageOgImage}`} />
             <link rel="alternate" href={mainRemoteHost} hrefLang="x-default" />
             <link rel="alternate" href={`${mainRemoteHost}/en-us/`} hrefLang="en" />
         </Head>
