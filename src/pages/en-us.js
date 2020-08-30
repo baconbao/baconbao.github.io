@@ -1,8 +1,11 @@
-import AppMain from '../containers/AppMain';
+/*
+ * Page EN-US
+ *
+ * @author BaconBao
+ * @link https://baconbao.github.io
+ */
 
-const data = {
-    title: 'English page',
-    content: 'English',
-};
+import AppMain from '../containers/AppMain';
+import data from '../data/zh-tw';
 
 export default () => AppMain(data);

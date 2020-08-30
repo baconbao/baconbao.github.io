@@ -7,6 +7,7 @@ export default {
     basePath,
     getSiteData: async () => ({
         basePath,
+        mainRemoteHost: 'https://baconbao.github.io',
     }),
     plugins: [
         [
@@ -16,7 +17,6 @@ export default {
             },
         ],
         require.resolve('react-static-plugin-reach-router'),
-        require.resolve('react-static-plugin-sitemap'),
     ],
     Document: ({
         Html,

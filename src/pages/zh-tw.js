@@ -1,8 +1,11 @@
-import AppMain from '../containers/AppMain';
+/*
+ * Page ZH-TW
+ *
+ * @author BaconBao
+ * @link https://baconbao.github.io
+ */
 
-const data = {
-    title: 'Chinese page',
-    content: 'Chinese',
-};
+import AppMain from '../containers/AppMain';
+import data from '../data/zh-tw';
 
 export default () => AppMain(data);

@@ -1,0 +1,129 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #f0f0f0;
+    font-family: 'Segoe UI', 'Microsoft JhengHei', '·L³n¥¿¶ÂÅé', 'Heiti TC', 'WenQuanYi Zen Hei', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: calc(14px + 0.33vw);
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+a {
+    color: #43b9ef;
+}
+#languageCard {
+    background: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#languageCard .switch .item {
+    display: inline-block;
+    padding: 0 5px;
+}
+#languageCard .switch .item.focus {
+    font-weight: bold;
+}
+#languageCard .switch .item.bordered-left {
+    border-left: 1px solid #aaaaaa;
+    padding-left: 10px;
+}
+#mainCard {
+    background: #ffffff;
+}
+#mainCard .inner {
+    max-width: 60vw;
+    padding: 30px 10vw 40px;
+}
+#mainCard #akaName:before {
+    content: "/";
+}
+#mainCard #mainTitle {
+    font-size: 2.7em;
+}
+#mainCard #mainTitle small {
+    font-size: 0.45em;
+}
+#mainCard #mainIntro {
+    font-size: 1.4em;
+}
+#activityCard {
+    background: #ffffff;
+}
+#activityCard .inner {
+    padding: 20px 10vw;
+}
+#activityCard h2 {
+    font-size: 1.6em;
+}
+#activityCard li,
+#activityCard .normalBlock {
+    font-size: 1.1em;
+    line-height: 1.45;
+    padding-bottom: 10px;
+}
+#activityCard .normalBlock {
+    padding-top: 10px;
+}
+#activityCard li .item-link {
+    font-size: 0.8em;
+}
+#activityCard li .item-link:before {
+    content: "(";
+}
+#activityCard li .item-link:after {
+    content: ")";
+    padding-left: 1px;
+}
+#footerCard {
+    background: #ffffff;
+}
+#footerCard .inner {
+    padding: 50px 10vw;
+}
+#footerCard #follow {
+    font-size: 1em;
+}
+#footerCard #em #em1,
+#footerCard #em #em2,
+#footerCard #em #em3 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+}
+#footerCard #em span#em1:before {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    content: "@nil.oabnocab";
+}
+#footerCard #em span#em2:before {
+    content: "gma";
+}
+#footerCard #em span#em3:before {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    content: "moc.li";
+}
+#copyright {
+    color: #ffffff;
+    font-size: 0.77em;
+}
+@media (max-width: 1000px) {
+    body {
+        -webkit-text-size-adjust: none;
+    }
+    #mainCard .inner {
+        max-width: 100vw;
+    }
+}
+@media (max-width: 768px) {
+    #mainCard #name {
+        display: block;
+    }
+    #mainCard #akaName {
+        display: block;
+    }
+}
