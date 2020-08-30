@@ -5,14 +5,27 @@
  * @link https://baconbao.github.io
  */
 
+const symbol = {
+    and: '、',
+};
+const patentStatus = {
+    granted: '核准',
+};
+const patentSelf = {
+    name: '林耕葆',
+    self: true,
+};
+const pubSelf = {
+    name: '林耕葆',
+    self: true,
+};
+
 const data = {
     lang: 'zh-tw',
     pageTitle: 'BaconBao - 我熱愛探索科技的應用！',
     pageDescription: '我是 BaconBao ，一個發現熱情就很難停下腳步的人，熱愛探索科技的應用。',
     pageOgImage: 'images/ogimage.jpg',
-    symbol: {
-        and: '、',
-    },
+    symbol,
     main: {
         hello: '嗨！我是',
         name: 'BaconBao',
@@ -65,18 +78,18 @@ const data = {
             {
                 year: '2020',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '基於嵌入式視窗的網頁加載方法及其裝置',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I692232', url: 'https://patents.google.com/patent/TWI692232B', status: '核准' },
+                    { text: 'TW I692232', url: 'https://patents.google.com/patent/TWI692232B', status: patentStatus.granted },
                 ],
             },
             {
                 year: '2019',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '顯示裝置及其顯示方法',
                 applicant: 'Acer Inc.',
@@ -87,23 +100,23 @@ const data = {
             {
                 year: '2019',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '電子裝置及音訊錄音控制方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I672630', url: 'https://patents.google.com/patent/TWI672630B', status: '核准' },
+                    { text: 'TW I672630', url: 'https://patents.google.com/patent/TWI672630B', status: patentStatus.granted },
                 ],
             },
             {
                 year: '2019',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '網頁內容自我保護方法及伺服器',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669624', url: 'https://patents.google.com/patent/TWI669624B', status: '核准' },
+                    { text: 'TW I669624', url: 'https://patents.google.com/patent/TWI669624B', status: patentStatus.granted },
                     { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
                     { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: false },
                 ],
@@ -111,19 +124,19 @@ const data = {
             {
                 year: '2019',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '電子裝置與其離線更新程式的方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669614', url: 'https://patents.google.com/patent/TWI669614B', status: '核准' },
+                    { text: 'TW I669614', url: 'https://patents.google.com/patent/TWI669614B', status: patentStatus.granted },
                     { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
                 ],
             },
             {
                 year: '2019',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '電子裝置與其視窗管理方法',
                 applicant: 'Acer Inc.',
@@ -134,7 +147,7 @@ const data = {
             {
                 year: '2019',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '電子裝置與其網頁應用程式介面的離線運行方法',
                 applicant: 'Acer Inc.',
@@ -145,7 +158,7 @@ const data = {
             {
                 year: '2019',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '電子裝置及其基於拖放操作的控制方法',
                 applicant: 'Acer Inc.',
@@ -156,19 +169,19 @@ const data = {
             {
                 year: '2018',
                 inventors: [
-                    { name: '林耕葆', self: true },
+                    patentSelf,
                 ],
                 name: '電子裝置與其操作方法以及伺服器',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I64196', url: 'https://patents.google.com/patent/TWI64196B', status: '核准' },
+                    { text: 'TW I64196', url: 'https://patents.google.com/patent/TWI64196B', status: patentStatus.granted },
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
             },
         ],
         formatter: {
-            itemText: (item) => `${item.inventors.map((i) => i.name).join('、')}，（${item.year}），“${item.name}”，申請人${item.applicant}`,
+            itemText: (item) => `${item.inventors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，申請人${item.applicant}`,
             linkText: (link) => link.text,
             linkGa: (link) => {
                 const rmSpace = (t) => t.split(' ').join('');
@@ -218,7 +231,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.name} | ${item.years.join('、')}年由${item.by}頒發`,
+            itemText: (item) => `${item.name} | ${item.years.join(symbol.and)}年由${item.by}頒發`,
         },
     },
     publication: {
@@ -229,7 +242,7 @@ const data = {
                 authors: [
                     { name: '劉成豪' },
                     { name: '唐運佳' },
-                    { name: '林耕葆', self: true },
+                    pubSelf,
                     { name: '謝依靜' },
                 ],
                 name: '行動搜尋下，你會越看越愛它嗎？使用者知識與螢幕尺寸如何影響品牌效果',
@@ -240,7 +253,7 @@ const data = {
             {
                 year: '2016',
                 authors: [
-                    { name: '林耕葆', self: true },
+                    pubSelf,
                 ],
                 name: '以說服知識模式與螢幕尺寸探討關鍵字廣告的重複曝光對品牌記憶與品牌態度之影響',
                 on: '國立中央大學，碩士論文',
@@ -251,7 +264,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join('、')}，（${item.year}），“${item.name}”，${item.on}`,
+            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，${item.on}`,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
         },

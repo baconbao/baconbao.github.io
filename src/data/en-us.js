@@ -5,6 +5,21 @@
  * @link https://baconbao.github.io
  */
 
+const symbol = {
+    and: ', ',
+};
+const patentStatus = {
+    granted: 'Granted',
+};
+const patentSelf = {
+    name: 'Geng-Bao Lin',
+    self: true,
+};
+const pubSelf = {
+    name: 'Geng-Bao Lin',
+    self: true,
+};
+
 const data = {
     lang: 'en-us',
     pageTitle: 'BaconBao - I love exploring the possiblities of technology!',
@@ -65,18 +80,18 @@ const data = {
             {
                 year: '2020',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Method and Device for Loading Web Page based on Iframe',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I692232', url: 'https://patents.google.com/patent/TWI692232B', status: 'Granted' },
+                    { text: 'TW I692232', url: 'https://patents.google.com/patent/TWI692232B', status: patentStatus.granted },
                 ],
             },
             {
                 year: '2019',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Display Device and Display Method Thereof',
                 applicant: 'Acer Inc.',
@@ -87,23 +102,23 @@ const data = {
             {
                 year: '2019',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Electronic Device and Control Method of Audio Recording',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I672630', url: 'https://patents.google.com/patent/TWI672630B', status: 'Granted' },
+                    { text: 'TW I672630', url: 'https://patents.google.com/patent/TWI672630B', status: patentStatus.granted },
                 ],
             },
             {
                 year: '2019',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Webpage Content Self-Protection Method and Associated Server',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669624', url: 'https://patents.google.com/patent/TWI669624B', status: 'Granted' },
+                    { text: 'TW I669624', url: 'https://patents.google.com/patent/TWI669624B', status: patentStatus.granted },
                     { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
                     { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: false },
                 ],
@@ -111,19 +126,19 @@ const data = {
             {
                 year: '2019',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Electronic Device and Method for Offline Updating Application Program Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669614', url: 'https://patents.google.com/patent/TWI669614B', status: 'Granted' },
+                    { text: 'TW I669614', url: 'https://patents.google.com/patent/TWI669614B', status: patentStatus.granted },
                     { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
                 ],
             },
             {
                 year: '2019',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Electronic Device and Web Page Management Method Thereof',
                 applicant: 'Acer Inc.',
@@ -134,7 +149,7 @@ const data = {
             {
                 year: '2019',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Electronic Device and Offline Operation of Web Application Program Interface Method Thereof',
                 applicant: 'Acer Inc.',
@@ -145,7 +160,7 @@ const data = {
             {
                 year: '2019',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Electronic Device and Control Method Thereof based on Drag-and-Drop Operation',
                 applicant: 'Acer Inc.',
@@ -156,19 +171,19 @@ const data = {
             {
                 year: '2018',
                 inventors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    patentSelf,
                 ],
                 name: 'Electronic Device and Operation Method Thereof and Server Host Device',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I64196', url: 'https://patents.google.com/patent/TWI64196B', status: 'Granted' },
+                    { text: 'TW I64196', url: 'https://patents.google.com/patent/TWI64196B', status: patentStatus.granted },
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
             },
         ],
         formatter: {
-            itemText: (item) => `${item.inventors.map((i) => i.name).join(', ')}, (${item.year}), "${item.name}," Applicant ${item.applicant}`,
+            itemText: (item) => `${item.inventors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," Applicant ${item.applicant}`,
             linkText: (link) => link.text,
             linkGa: (link) => {
                 const rmSpace = (t) => t.split(' ').join('');
@@ -218,7 +233,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.name} ${item.originalInfo || ''} | Awarded by ${item.by}, (${item.years.join(', ')})`,
+            itemText: (item) => `${item.name} ${item.originalInfo || ''} | Awarded by ${item.by}, (${item.years.join(symbol.and)})`,
         },
     },
     publication: {
@@ -229,7 +244,7 @@ const data = {
                 authors: [
                     { name: 'Chen-Hao Liu' },
                     { name: 'Yun-Chia Tang' },
-                    { name: 'Geng-Bao Lin', self: true },
+                    pubSelf,
                     { name: 'Yi-Ching Hsieh' },
                 ],
                 name: 'In mobile search, the more you see, the more you love ? How consumer knowledge and screen sizes affect branding effect',
@@ -240,7 +255,7 @@ const data = {
             {
                 year: '2016',
                 authors: [
-                    { name: 'Geng-Bao Lin', self: true },
+                    pubSelf,
                 ],
                 name: 'The Effect of Repetition of Keyword Advertising on Brand Recognition and Attitude with Persuasion Knowledge Model and Screen Size',
                 on: 'National Central University, Master Thesis',
@@ -251,7 +266,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join(', ')}, (${item.year}), "${item.name}," ${item.on}`,
+            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," ${item.on}`,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
         },
