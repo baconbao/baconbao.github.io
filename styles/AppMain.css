@@ -1,27 +1,3 @@
-/* Globals */
-html, body {
-    padding: 0;
-    margin: 0;
-}
-body {
-    background: #f0f0f0;
-    font-family: 'Segoe UI', 'Microsoft JhengHei', '·L³n¥¿¶ÂÅé', 'Heiti TC', 'WenQuanYi Zen Hei', Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: calc(14px + 0.33vw);
-}
-h1, h2, h3, h4, h5 {
-    margin: 0;
-}
-a {
-    color: #43b9ef;
-}
-@media (max-width: 1000px) {
-    body {
-        -webkit-text-size-adjust: none;
-    }
-}
-
-/* AppMain */
 #languageCard {
     background: #fff;
     text-align: right;

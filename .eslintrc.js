@@ -15,12 +15,15 @@ module.exports = {
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 2018
+        "ecmaVersion": 2018,
+        "sourceType": "module",
     },
     "rules": {
         "prefer-template": 0,
         "arrow-parens": ["error", "always"],
-        "indent": [2, 4],
+        "indent": ["error", 4, {
+            "ignoredNodes": ["TemplateLiteral"],
+        }],
         "newline-per-chained-call": 0,
         "operator-linebreak": ["error", "after"],
         "no-use-before-define": ["error", {
@@ -51,5 +54,12 @@ module.exports = {
         "react/prefer-stateless-function": 0,
         "react/jsx-props-no-spreading": 0,
         "react/prop-types": 0,
+        "react/no-array-index-key": 0,
+        "template-curly-spacing": 0,
+        "jsx-a11y/anchor-is-valid": ["error", {
+            "components": ["Link"],
+            "specialLink": ["hrefLeft", "hrefRight"],
+            "aspects": ["invalidHref", "preferButton"]
+        }],
     }
 };
