@@ -6,6 +6,6 @@
  */
 
 import AppMain from '../../components/AppMain';
-import data from '../../data/zh-tw'; // [Temp]
+import data from '../../data/en-us';
 
 export default () => AppMain(data);
