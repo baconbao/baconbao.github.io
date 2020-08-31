@@ -5,12 +5,16 @@ import ReactGA from 'react-ga';
 import siteData from '../data/siteData';
 
 /*
- * Functions
+ * Functions and Vars
  *
  */
 const aElementBlinkOpen = {
     target: '_blank',
     rel: 'noreferrer noopener',
+};
+const conditionOfGaTracker = () => {
+    const matched = (typeof window !== 'undefined' && window.location.hostname.indexOf('baconbao') >= 0);
+    return matched;
 };
 
 /*
@@ -20,7 +24,7 @@ const aElementBlinkOpen = {
 const handleGaEvent = (type, tag) => {
     switch (type) {
     case 'link': {
-        if (typeof window !== 'undefined') {
+        if (conditionOfGaTracker()) {
             ReactGA.event({
                 category: 'link',
                 action: tag,
@@ -329,7 +333,7 @@ const AppMain = (data) => {
      * Launch GA tracking
      *
      */
-    if (typeof window !== 'undefined') {
+    if (conditionOfGaTracker()) {
         ReactGA.initialize('UA-11047041-24');
         ReactGA.ga('send', 'pageview');
     }
