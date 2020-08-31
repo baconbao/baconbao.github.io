@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import ReactGA from 'react-ga';
 import siteData from '../data/siteData';
 
 /*
@@ -20,7 +21,7 @@ const handleGaEvent = (type, tag) => {
     switch (type) {
     case 'link': {
         if (typeof window !== 'undefined') {
-            console.log({
+            ReactGA.event({
                 category: 'link',
                 action: tag,
             });
@@ -324,6 +325,14 @@ const PageHead = ({ data }) => {
 };
 
 const AppMain = (data) => {
+    /*
+     * Launch GA tracking
+     *
+     */
+    if (typeof window !== 'undefined') {
+        ReactGA.initialize('UA-11047041-24');
+        ReactGA.ga('send', 'pageview');
+    }
     /*
      * Main
      *
