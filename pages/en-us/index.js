@@ -8,4 +8,6 @@
 import AppMain from '../../components/AppMain';
 import data from '../../data/en-us';
 
-export default () => AppMain(data);
+const Page = () => AppMain(data);
+
+export default Page;
