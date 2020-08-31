@@ -1,5 +1,14 @@
 # [baconbao.github.io](https://baconbao.github.io)
 
+## Setup
+
+```
+$ cd <project>
+$ npm install
+```
+
+## Commands and Flows
+
 ### Launch dev
 
 ```
