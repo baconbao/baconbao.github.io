@@ -8,7 +8,7 @@
     "build": "npm run test && next build",
     "start": "next start",
     "export": "next export",
-    "predeploy": "npm run build && npm run export",
+    "predeploy": "rm -rf ./out && npm run build && npm run export",
     "deploy": "git log --pretty=format:\"%H\" -n 1 > ./out/master.commithash && gh-pages -d out -t true"
   },
   "dependencies": {
