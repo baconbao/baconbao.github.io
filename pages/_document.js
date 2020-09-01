@@ -19,6 +19,7 @@ class MyDocument extends Document {
                     <meta charSet="UTF-8" />
                     <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
                     <meta name="author" content="BaconBao" />
+                    <meta name="google-site-verification" content="uEUOEZWK4hbuXKG4fN2BseuNSZ3h5L7Mu__O2PX2dpY" />
                 </Head>
                 <body>
                     <Main />
