@@ -187,7 +187,7 @@ const data = {
                 name: 'Electronic Device and Operation Method Thereof and Server Host Device',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I641969', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I64196', status: patentStatus.granted },
+                    { text: 'TW I641969', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I641969', status: patentStatus.granted },
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
