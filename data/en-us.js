@@ -85,7 +85,7 @@ const data = {
                 name: 'Electronic Device and Resource Health Management Method',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I704783', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I704783', status: patentStatus.granted },
+                    { text: 'TW I704783', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I704783', status: patentStatus.granted },
                 ],
             },
             {
