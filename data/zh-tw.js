@@ -174,7 +174,7 @@ const data = {
                 name: '電子裝置與其操作方法以及伺服器',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I64196', url: 'https://patents.google.com/patent/TWI64196B', status: patentStatus.granted },
+                    { text: 'TW I641969', url: 'https://patents.google.com/patent/TWI64196B', status: patentStatus.granted },
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
