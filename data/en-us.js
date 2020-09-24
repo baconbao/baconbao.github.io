@@ -82,6 +82,17 @@ const data = {
                 inventors: [
                     patentSelf,
                 ],
+                name: 'Electronic Device and Resource Health Management Method',
+                applicant: 'Acer Inc.',
+                links: [
+                    { text: 'TW I704783', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I704783', status: patentStatus.granted },
+                ],
+            },
+            {
+                year: '2020',
+                inventors: [
+                    patentSelf,
+                ],
                 name: 'Method and Device for Loading Web Page based on Iframe',
                 applicant: 'Acer Inc.',
                 links: [

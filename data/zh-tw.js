@@ -80,6 +80,17 @@ const data = {
                 inventors: [
                     patentSelf,
                 ],
+                name: '電子裝置與資源健康管理方法',
+                applicant: 'Acer Inc.',
+                links: [
+                    { text: 'TW I704783', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I704783', status: patentStatus.granted },
+                ],
+            },
+            {
+                year: '2020',
+                inventors: [
+                    patentSelf,
+                ],
                 name: '基於嵌入式視窗的網頁加載方法及其裝置',
                 applicant: 'Acer Inc.',
                 links: [
