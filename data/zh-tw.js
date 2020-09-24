@@ -83,7 +83,7 @@ const data = {
                 name: '基於嵌入式視窗的網頁加載方法及其裝置',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I692232', url: 'https://patents.google.com/patent/TWI692232B', status: patentStatus.granted },
+                    { text: 'TW I692232', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I692232', status: patentStatus.granted },
                 ],
             },
             {
@@ -94,7 +94,7 @@ const data = {
                 name: '顯示裝置及其顯示方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201947383', url: 'https://patents.google.com/patent/TW201947383A', status: false },
+                    { text: 'TW 201947383', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201947383', status: false },
                 ],
             },
             {
@@ -105,7 +105,7 @@ const data = {
                 name: '電子裝置及音訊錄音控制方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I672630', url: 'https://patents.google.com/patent/TWI672630B', status: patentStatus.granted },
+                    { text: 'TW I672630', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I672630', status: patentStatus.granted },
                 ],
             },
             {
@@ -116,7 +116,7 @@ const data = {
                 name: '網頁內容自我保護方法及伺服器',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669624', url: 'https://patents.google.com/patent/TWI669624B', status: patentStatus.granted },
+                    { text: 'TW I669624', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I669624', status: patentStatus.granted },
                     { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
                     { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: false },
                 ],
@@ -129,7 +129,7 @@ const data = {
                 name: '電子裝置與其離線更新程式的方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669614', url: 'https://patents.google.com/patent/TWI669614B', status: patentStatus.granted },
+                    { text: 'TW I669614', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I669614', status: patentStatus.granted },
                     { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
                 ],
             },
@@ -141,7 +141,7 @@ const data = {
                 name: '電子裝置與其視窗管理方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201926017', url: 'https://patents.google.com/patent/TW201926017A', status: false },
+                    { text: 'TW 201926017', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201926017', status: false },
                 ],
             },
             {
@@ -152,7 +152,7 @@ const data = {
                 name: '電子裝置與其網頁應用程式介面的離線運行方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201917568', url: 'https://patents.google.com/patent/TW201917568A', status: false },
+                    { text: 'TW 201917568', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201917568', status: false },
                 ],
             },
             {
@@ -163,7 +163,7 @@ const data = {
                 name: '電子裝置及其基於拖放操作的控制方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201905670', url: 'https://patents.google.com/patent/TW201905670A', status: false },
+                    { text: 'TW 201905670', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201905670', status: false },
                 ],
             },
             {
@@ -174,7 +174,7 @@ const data = {
                 name: '電子裝置與其操作方法以及伺服器',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I641969', url: 'https://patents.google.com/patent/TWI64196B', status: patentStatus.granted },
+                    { text: 'TW I641969', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I64196', status: patentStatus.granted },
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
