@@ -352,8 +352,8 @@ const AppMain = (data) => {
                     <>
                         <ExpBlock data={data.exp} symbol={symbol} />
                         <EduBlock data={data.edu} symbol={symbol} />
-                        <InventBlock data={data.invent} symbol={symbol} />
                         <PublicationBlock data={data.publication} symbol={symbol} />
+                        <InventBlock data={data.invent} symbol={symbol} />
                         <AwardBlock data={data.award} symbol={symbol} />
                         <NonprofitBlock data={data.nonprofit} symbol={symbol} />
                         <EsportBlock data={data.esport} symbol={symbol} />
