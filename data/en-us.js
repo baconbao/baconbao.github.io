@@ -259,7 +259,7 @@ const data = {
                     { name: 'Yi-Ching Hsieh' },
                 ],
                 name: 'In mobile search, the more you see, the more you love ? How consumer knowledge and screen sizes affect branding effect',
-                on: 'Sun Yat-Sen Management Review (Taiwan SSCI)',
+                on: 'Sun Yat-Sen Management Review',
                 note: '',
                 links: [
                     { name: 'LINK', url: 'http://mgtr.cm.nsysu.edu.tw/fulljournal_process.php?id=148&pno=M5f6998fdb6ae0&p=379', ga: 'paper_2020-1' },

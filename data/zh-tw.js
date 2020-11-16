@@ -257,7 +257,7 @@ const data = {
                     { name: '謝依靜' },
                 ],
                 name: '行動搜尋下，你會越看越愛它嗎？使用者知識與螢幕尺寸如何影響品牌效果',
-                on: '中山管理評論(TSSCI)',
+                on: '中山管理評論',
                 note: '',
                 links: [
                     { name: 'LINK', url: 'http://mgtr.cm.nsysu.edu.tw/fulljournal_process.php?id=148&pno=M5f6998fdb6ae0&p=379', ga: 'paper_2020-1' },
