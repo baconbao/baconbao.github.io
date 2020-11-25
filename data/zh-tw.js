@@ -84,6 +84,9 @@ const data = {
                 applicant: 'Acer Inc.',
                 links: [
                     { text: 'TW I711293', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I711293', status: patentStatus.granted },
+                    { text: 'CN 111835675', url: 'https://patents.google.com/patent/CN111835675A', status: false },
+                    { text: 'US 20200313901', url: 'https://patents.google.com/patent/US20200313901A1', status: false },
+                    { text: 'EP EP3716526', url: 'https://patents.google.com/patent/EP3716526A1', status: false },
                 ],
             },
             {
