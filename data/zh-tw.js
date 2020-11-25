@@ -80,6 +80,17 @@ const data = {
                 inventors: [
                     patentSelf,
                 ],
+                name: '驗證網路通話身份的方法及相關裝置',
+                applicant: 'Acer Inc.',
+                links: [
+                    { text: 'TW I711293', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I711293', status: patentStatus.granted },
+                ],
+            },
+            {
+                year: '2020',
+                inventors: [
+                    patentSelf,
+                ],
                 name: '電子裝置與資源健康管理方法',
                 applicant: 'Acer Inc.',
                 links: [

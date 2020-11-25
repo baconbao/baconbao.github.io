@@ -82,6 +82,17 @@ const data = {
                 inventors: [
                     patentSelf,
                 ],
+                name: 'Method of Identity Authentication for Voice over Internet Protocol Call and Related Device',
+                applicant: 'Acer Inc.',
+                links: [
+                    { text: 'TW I711293', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I711293', status: patentStatus.granted },
+                ],
+            },
+            {
+                year: '2020',
+                inventors: [
+                    patentSelf,
+                ],
                 name: 'Electronic Device and Resource Health Management Method',
                 applicant: 'Acer Inc.',
                 links: [
