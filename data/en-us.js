@@ -32,20 +32,25 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I majored in information management, currently working as the project engineer at Acer Inc. I usually solve problems by programing, loving to explore technologies, especially the browser applications, the findings are presented in my invention of patents. I also like to study consumer behavior and digital marketing. Outside of programming, I enjoy playing FPS games and promoting the esports.',
+        intro: 'I majored in Information Management, currently as a PhD student at National Taiwan University. I love to explore technologies and its effects toward users. Research interests are Web Browser Application, User Behavior and Digital Marketing. Outside of researches, I enjoy playing FPS games and promoting the esports.',
     },
     edu: {
         title: 'Education',
         items: [
             {
+                degree: 'Ph.D student',
+                school: 'National Taiwan University',
+                dept: 'Department of Information Management',
+            },
+            {
                 degree: 'M.B.A.',
                 school: 'National Central University',
-                dept: 'Department of information management',
+                dept: 'Department of Information Management',
             },
             {
                 degree: 'B.B.A.',
                 school: 'National Pingtung Institute of Commerce',
-                dept: 'Department of information management',
+                dept: 'Department of Information Management',
             },
         ],
         formatter: {
@@ -57,7 +62,7 @@ const data = {
         items: [
             {
                 fromTime: '2016/9',
-                toTime: 'Present',
+                toTime: '2020/12',
                 com: 'Acer Inc.',
                 dept: 'Value Lab',
                 pos: 'Project engineer',
