@@ -52,6 +52,18 @@ const EduBlock = ({ data }) => (
         </ul>
     </div>
 );
+const ResIntBlock = ({ data }) => (
+    <div>
+        <h2>{data.title}</h2>
+        <ul>
+            {('items' in data) && data.items.map((item, i) => (
+                <li key={i}>
+                    {data.formatter.itemText(item)}
+                </li>
+            ))}
+        </ul>
+    </div>
+);
 const ExpBlock = ({ data }) => (
     <div>
         <h2>{data.title}</h2>
@@ -350,6 +362,7 @@ const AppMain = (data) => {
             <ActivityCard
                 Sub={() => (
                     <>
+                        <ResIntBlock data={data.researchInterest} symbol={symbol} />
                         <EduBlock data={data.edu} symbol={symbol} />
                         <ExpBlock data={data.exp} symbol={symbol} />
                         <PublicationBlock data={data.publication} symbol={symbol} />

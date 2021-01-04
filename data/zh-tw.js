@@ -32,6 +32,23 @@ const data = {
         akaName: '林耕葆',
         intro: '目前我是資訊管理的背景，在臺灣大學攻讀博士學位。平時就熱愛探索新奇的科技，以及科技對人們的影響。研究興趣為瀏覽器應用、使用者行為以及數位行銷。學術之外，則喜歡打打FPS遊戲，樂於推廣電競。',
     },
+    researchInterest: {
+        title: '研究興趣',
+        items: [
+            {
+                text: '網路瀏覽器應用',
+            },
+            {
+                text: '使用者行為',
+            },
+            {
+                text: '數位行銷',
+            },
+        ],
+        formatter: {
+            itemText: (item) => `${item.text}`,
+        },
+    },
     edu: {
         title: '學歷',
         items: [
