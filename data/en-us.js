@@ -351,7 +351,7 @@ const data = {
     },
     social: {
         title: '',
-        text: 'Follow me：',
+        text: 'Follow me: ',
         links: [
             {
                 text: 'Facebook',
