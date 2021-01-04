@@ -32,7 +32,7 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I majored in Information Management, currently as a PhD student at National Taiwan University. I love to explore technologies and its effects toward users. Research interests are Web browser application, User behavior and Digital marketing. Outside of researches, I enjoy playing FPS games and promoting the esports.',
+        intro: 'I majored in Information Management, currently as a PhD student at National Taiwan University. I love to explore information technologies and its effects toward users. Research interests are Web browser application, User behavior and Digital marketing. Outside of researches, I enjoy playing FPS games and promoting the esports.',
     },
     researchInterest: {
         title: 'Research interests',
