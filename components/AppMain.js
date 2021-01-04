@@ -350,8 +350,8 @@ const AppMain = (data) => {
             <ActivityCard
                 Sub={() => (
                     <>
-                        <ExpBlock data={data.exp} symbol={symbol} />
                         <EduBlock data={data.edu} symbol={symbol} />
+                        <ExpBlock data={data.exp} symbol={symbol} />
                         <PublicationBlock data={data.publication} symbol={symbol} />
                         <InventBlock data={data.invent} symbol={symbol} />
                         <AwardBlock data={data.award} symbol={symbol} />
