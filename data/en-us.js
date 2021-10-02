@@ -376,14 +376,9 @@ const data = {
                 ga: 'follow_fb',
             },
             {
-                text: 'Instagram',
-                url: 'https://www.instagram.com/baconbao/',
-                ga: 'follow_insta',
-            },
-            {
-                text: 'Youtube',
-                url: 'https://www.youtube.com/user/LernHerN/',
-                ga: 'follow_youtube',
+                text: 'GitHub',
+                url: 'https://github.com/baconbao',
+                ga: 'follow_github',
             },
         ],
         formatter: {
