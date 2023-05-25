@@ -12,7 +12,10 @@ $ npm install
 ### Launch dev
 
 ```
-$ npm run dev
+(Linwx)
+$ NODE_OPTIONS=--openssl-legacy-provider && npm run dev
+(Windows on CMD)
+$ set NODE_OPTIONS=--openssl-legacy-provider && npm run dev
 ```
 
 Then browsing `localhost:3000`.

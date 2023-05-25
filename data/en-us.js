@@ -32,7 +32,7 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I majored in Information Management, currently as a PhD student at National Taiwan University. I love to explore information technologies and its effects toward users. Research interests are Web application, User behavior and Digital marketing. Outside of researches, I enjoy playing FPS games and promoting the esports.',
+        intro: 'I majored in Information Management, currently as a PhD student at National Taiwan University. I enjoy rolling, acting cute, and slapping belly in the ocean of knowledges.',
     },
     researchInterest: {
         title: 'Research interests',
@@ -107,11 +107,12 @@ const data = {
                 name: 'Method of Identity Authentication for Voice over Internet Protocol Call and Related Device',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I711293', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I711293', status: patentStatus.granted },
+                    { text: 'TW I711293', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I711293', status: patentStatus.granted },
                     { text: 'CN 111835675', url: 'https://patents.google.com/patent/CN111835675A', status: false },
-                    { text: 'US 20200313901', url: 'https://patents.google.com/patent/US20200313901A1', status: false },
+                    { text: 'US 20200313901', url: 'https://patents.google.com/patent/US20200313901A1', status: patentStatus.granted },
                     { text: 'EP EP3716526', url: 'https://patents.google.com/patent/EP3716526A1', status: false },
                 ],
+                intro: 'A blockchain-based method for verification of calling identity.',
             },
             {
                 year: '2020',
@@ -121,8 +122,9 @@ const data = {
                 name: 'Electronic Device and Resource Health Management Method',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I704783', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I704783', status: patentStatus.granted },
+                    { text: 'TW I704783', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I704783', status: patentStatus.granted },
                 ],
+                intro: 'A method for detecting healthy of resources across domains and protocols.',
             },
             {
                 year: '2020',
@@ -132,8 +134,9 @@ const data = {
                 name: 'Method and Device for Loading Web Page based on Iframe',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I692232', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I692232', status: patentStatus.granted },
+                    { text: 'TW I692232', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I692232', status: patentStatus.granted },
                 ],
+                intro: 'A method for presenting HTTP/HTTPS mixed contents on a webpage.',
             },
             {
                 year: '2019',
@@ -145,6 +148,7 @@ const data = {
                 links: [
                     { text: 'TW 201947383', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201947383', status: false },
                 ],
+                intro: 'A layer-based content management system.',
             },
             {
                 year: '2019',
@@ -154,8 +158,9 @@ const data = {
                 name: 'Electronic Device and Control Method of Audio Recording',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I672630', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I672630', status: patentStatus.granted },
+                    { text: 'TW I672630', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I672630', status: patentStatus.granted },
                 ],
+                intro: 'A method of press-to-record calls.',
             },
             {
                 year: '2019',
@@ -165,10 +170,11 @@ const data = {
                 name: 'Webpage Content Self-Protection Method and Associated Server',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669624', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I669624', status: patentStatus.granted },
+                    { text: 'TW I669624', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I669624', status: patentStatus.granted },
                     { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
-                    { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: false },
+                    { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: patentStatus.granted },
                 ],
+                intro: 'A webpage self-protection method based on one-time passwords.',
             },
             {
                 year: '2019',
@@ -178,9 +184,10 @@ const data = {
                 name: 'Electronic Device and Method for Offline Updating Application Program Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669614', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I669614', status: patentStatus.granted },
+                    { text: 'TW I669614', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I669614', status: patentStatus.granted },
                     { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
                 ],
+                intro: 'A method for updating applications through an embedded browser in offline context.',
             },
             {
                 year: '2019',
@@ -192,6 +199,7 @@ const data = {
                 links: [
                     { text: 'TW 201926017', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201926017', status: false },
                 ],
+                intro: 'A method for detecting window/tabs dependencies of browser.',
             },
             {
                 year: '2019',
@@ -203,6 +211,7 @@ const data = {
                 links: [
                     { text: 'TW 201917568', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201917568', status: false },
                 ],
+                intro: 'A Web APIs in offline contexts.',
             },
             {
                 year: '2019',
@@ -214,6 +223,7 @@ const data = {
                 links: [
                     { text: 'TW 201905670', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201905670', status: false },
                 ],
+                intro: 'A browser-based dialing method using drag and drop.',
             },
             {
                 year: '2018',
@@ -223,15 +233,17 @@ const data = {
                 name: 'Electronic Device and Operation Method Thereof and Server Host Device',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I641969', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_I641969', status: patentStatus.granted },
+                    { text: 'TW I641969', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I641969', status: patentStatus.granted },
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
+                intro: 'A flexible web-based voice solution in both online and offline contexts.',
             },
         ],
         formatter: {
             itemText: (item) => `${item.inventors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," Applicant ${item.applicant}`,
             linkText: (link) => link.text,
+            generateAbstract: (item) => `${item.intro}`,
             linkGa: (link) => {
                 const rmSpace = (t) => t.split(' ').join('');
                 const text = rmSpace(link.text);
@@ -332,6 +344,7 @@ const data = {
                         ga: 'tww_website',
                     },
                 ],
+                live: false,
             },
             {
                 name: 'LuckyBacon',
@@ -342,12 +355,14 @@ const data = {
                         ga: 'luckybacon',
                     },
                 ],
+                live: true,
             },
         ],
         formatter: {
             itemTextName: (item) => item.name,
             itemTextDescription: (item) => item.description,
             linkGa: (link) => link.ga,
+            serviceState: (item) => (item.live) ? '' : 'The service has been discontinued.',
         },
     },
     esport: {

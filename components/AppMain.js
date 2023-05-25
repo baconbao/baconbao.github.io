@@ -82,6 +82,8 @@ const InventBlock = ({ data, symbol }) => (
         <ul>
             {('items' in data) && data.items.map((item, i) => (
                 <li key={i}>
+                    <i>{data.formatter.generateAbstract(item)}</i>
+                    <br />
                     {data.formatter.itemText(item)}
                     {' '}
                     {('links' in item && item.links.length > 0) && (
@@ -171,6 +173,9 @@ const NonprofitBlock = ({ data }) => (
                         )}
                         {' - '}
                         {data.formatter.itemTextDescription(item)}
+                        <small><i>
+                            {data.formatter.serviceState(item)}
+                        </i></small>
                     </li>
                 );
             })}

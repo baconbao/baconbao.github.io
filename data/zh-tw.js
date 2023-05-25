@@ -30,7 +30,7 @@ const data = {
         hello: '嗨！我是',
         name: 'BaconBao',
         akaName: '林耕葆',
-        intro: '我的學識背景是資訊管理，目前在臺灣大學攻讀博士學位。平時就熱愛探索新奇的資訊科技，以及這些資訊科技對人們的影響。研究興趣為網路應用、使用者行為以及數位行銷。學術之外，則喜歡打打FPS遊戲，樂於推廣電競。',
+        intro: '我的學識背景是資訊管理，目前在臺灣大學攻讀博士學位。平時就熱愛探索新奇的資訊科技，以及這些資訊科技對人們的影響。興趣是在知識的海洋裡翻滾、賣萌、曬肚皮。',
     },
     researchInterest: {
         title: '研究興趣',
@@ -107,9 +107,10 @@ const data = {
                 links: [
                     { text: 'TW I711293', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I711293', status: patentStatus.granted },
                     { text: 'CN 111835675', url: 'https://patents.google.com/patent/CN111835675A', status: false },
-                    { text: 'US 20200313901', url: 'https://patents.google.com/patent/US20200313901A1', status: false },
+                    { text: 'US 20200313901', url: 'https://patents.google.com/patent/US20200313901A1', status: patentStatus.granted },
                     { text: 'EP EP3716526', url: 'https://patents.google.com/patent/EP3716526A1', status: false },
                 ],
+                intro: '一種基於區塊鏈的網路通話身份驗證方法',
             },
             {
                 year: '2020',
@@ -121,6 +122,7 @@ const data = {
                 links: [
                     { text: 'TW I704783', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I704783', status: patentStatus.granted },
                 ],
+                intro: '一種資源健康性的檢測方法，適用於跨網域與跨通訊協定',
             },
             {
                 year: '2020',
@@ -132,6 +134,7 @@ const data = {
                 links: [
                     { text: 'TW I692232', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I692232', status: patentStatus.granted },
                 ],
+                intro: '一種網頁的HTTP/HTTPS混合內容呈現方式',
             },
             {
                 year: '2019',
@@ -143,6 +146,7 @@ const data = {
                 links: [
                     { text: 'TW 201947383', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201947383', status: false },
                 ],
+                intro: '一種圖層式內容管理系統',
             },
             {
                 year: '2019',
@@ -154,6 +158,7 @@ const data = {
                 links: [
                     { text: 'TW I672630', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I672630', status: patentStatus.granted },
                 ],
+                intro: '一種可按壓錄音的通話',
             },
             {
                 year: '2019',
@@ -165,8 +170,9 @@ const data = {
                 links: [
                     { text: 'TW I669624', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I669624', status: patentStatus.granted },
                     { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
-                    { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: false },
+                    { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: patentStatus.granted },
                 ],
+                intro: '一種基於一次性密碼的網頁自我保護方法',
             },
             {
                 year: '2019',
@@ -179,6 +185,7 @@ const data = {
                     { text: 'TW I669614', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I669614', status: patentStatus.granted },
                     { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
                 ],
+                intro: '一種藉由內嵌式瀏覽器實踐更新離線程式的方法',
             },
             {
                 year: '2019',
@@ -190,6 +197,7 @@ const data = {
                 links: [
                     { text: 'TW 201926017', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201926017', status: false },
                 ],
+                intro: '一種偵測瀏覽器視窗的依賴的方法',
             },
             {
                 year: '2019',
@@ -201,6 +209,7 @@ const data = {
                 links: [
                     { text: 'TW 201917568', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201917568', status: false },
                 ],
+                intro: '一種用於離線情境的Web APIs',
             },
             {
                 year: '2019',
@@ -212,6 +221,7 @@ const data = {
                 links: [
                     { text: 'TW 201905670', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201905670', status: false },
                 ],
+                intro: '一種可在瀏覽器上拖放的撥號方式',
             },
             {
                 year: '2018',
@@ -225,11 +235,13 @@ const data = {
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
+                intro: '一種適用在線與離線情境的基於瀏覽器的靈活語音方法',
             },
         ],
         formatter: {
             itemText: (item) => `${item.inventors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，申請人${item.applicant}`,
             linkText: (link) => link.text,
+            generateAbstract: (item) => `${item.intro}`,
             linkGa: (link) => {
                 const rmSpace = (t) => t.split(' ').join('');
                 const text = rmSpace(link.text);
@@ -323,29 +335,32 @@ const data = {
         items: [
             {
                 name: '台語兒',
-                description: '免費應用程式與服務，協助人們在遇到需要台語溝通的時候，可以快速方便的查詢到所需的台語語音。從2013年服務至今。',
+                description: '免費應用程式與服務，協助人們在遇到需要台語溝通的時候，可以快速方便的查詢到所需的台語語音。自2013年開始服務。',
                 links: [
                     {
                         url: 'https://baconbao.github.io/TaiwaneseWizard/',
                         ga: 'tww_website',
                     },
                 ],
+                live: false,
             },
             {
                 name: 'LuckyBacon',
-                description: '開放原始碼的免費小型抽獎程式，協助行銷人員或是研究生等在需要抽獎時可以快速擺放獎項與完成抽獎。從2016年服務至今。',
+                description: '開放原始碼的免費小型抽獎程式，協助行銷人員或是研究生等在需要抽獎時可以快速擺放獎項與完成抽獎。自2016年開始服務。',
                 links: [
                     {
                         url: 'https://baconbao.github.io/LuckyBacon/',
                         ga: 'luckybacon',
                     },
                 ],
+                live: true,
             },
         ],
         formatter: {
             itemTextName: (item) => item.name,
             itemTextDescription: (item) => item.description,
             linkGa: (link) => link.ga,
+            serviceState: (item) => (item.live) ? '' : '服務已停止',
         },
     },
     esport: {
