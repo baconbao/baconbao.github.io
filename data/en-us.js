@@ -362,7 +362,10 @@ const data = {
             itemTextName: (item) => item.name,
             itemTextDescription: (item) => item.description,
             linkGa: (link) => link.ga,
-            serviceState: (item) => (item.live) ? '' : 'The service has been discontinued.',
+            serviceState: (item) => {
+                const res = (item.live) ? '' : 'The service has been discontinued.';
+                return res;
+            },
         },
     },
     esport: {

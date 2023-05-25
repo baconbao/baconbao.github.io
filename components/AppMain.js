@@ -173,9 +173,7 @@ const NonprofitBlock = ({ data }) => (
                         )}
                         {' - '}
                         {data.formatter.itemTextDescription(item)}
-                        <small><i>
-                            {data.formatter.serviceState(item)}
-                        </i></small>
+                        <small><i>{data.formatter.serviceState(item)}</i></small>
                     </li>
                 );
             })}

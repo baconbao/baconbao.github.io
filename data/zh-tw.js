@@ -360,7 +360,10 @@ const data = {
             itemTextName: (item) => item.name,
             itemTextDescription: (item) => item.description,
             linkGa: (link) => link.ga,
-            serviceState: (item) => (item.live) ? '' : '服務已停止',
+            serviceState: (item) => {
+                const res = (item.live) ? '' : '服務已停止';
+                return res;
+            },
         },
     },
     esport: {
