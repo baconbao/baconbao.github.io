@@ -239,7 +239,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.inventors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，申請人${item.applicant}`,
+            itemText: (item) => `${item.inventors.map((i) => i.name).join(symbol.and)}, (${item.year}), “${item.name}”, 申請人${item.applicant}`,
             linkText: (link) => link.text,
             generateAbstract: (item) => `${item.intro}`,
             linkGa: (link) => {
