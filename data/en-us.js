@@ -22,8 +22,8 @@ const pubSelf = {
 
 const data = {
     lang: 'en-us',
-    pageTitle: 'BaconBao - I love exploring the possiblities of technology!',
-    pageDescription: 'Hi, I am BaconBao, I love exploring the possiblities of technology!',
+    pageTitle: 'I am BaconBao, I love technology and its application!',
+    pageDescription: 'Hi, I am BaconBao, I love technology and its application!',
     pageOgImage: 'images/ogimage_en.jpg',
     symbol: {
         and: ', ',

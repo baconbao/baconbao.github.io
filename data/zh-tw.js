@@ -22,8 +22,8 @@ const pubSelf = {
 
 const data = {
     lang: 'zh-tw',
-    pageTitle: 'BaconBao - 我熱愛探索科技的應用！',
-    pageDescription: '我是 BaconBao ，一個發現熱情就很難停下腳步的人，熱愛探索科技的應用。',
+    pageTitle: '我是 BaconBao, 我熱愛探索科技與它的應用！',
+    pageDescription: '我是 BaconBao ，一個發現熱情就很難停下腳步的人，熱愛探索科技與它的應用。',
     pageOgImage: 'images/ogimage.jpg',
     symbol,
     main: {
