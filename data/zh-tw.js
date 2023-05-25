@@ -105,7 +105,7 @@ const data = {
                 name: '驗證網路通話身份的方法及相關裝置',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I711293', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I711293', status: patentStatus.granted },
+                    { text: 'TW I711293', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI711293', status: patentStatus.granted },
                     { text: 'CN 111835675', url: 'https://patents.google.com/patent/CN111835675A', status: false },
                     { text: 'US 20200313901', url: 'https://patents.google.com/patent/US20200313901A1', status: patentStatus.granted },
                     { text: 'EP EP3716526', url: 'https://patents.google.com/patent/EP3716526A1', status: false },
@@ -120,7 +120,7 @@ const data = {
                 name: '電子裝置與資源健康管理方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I704783', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I704783', status: patentStatus.granted },
+                    { text: 'TW I704783', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI704783', status: patentStatus.granted },
                 ],
                 intro: '一種資源健康性的檢測方法，適用於跨網域與跨通訊協定',
             },
@@ -132,7 +132,7 @@ const data = {
                 name: '基於嵌入式視窗的網頁加載方法及其裝置',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I692232', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I692232', status: patentStatus.granted },
+                    { text: 'TW I692232', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI692232', status: patentStatus.granted },
                 ],
                 intro: '一種網頁的HTTP/HTTPS混合內容呈現方式',
             },
@@ -156,7 +156,7 @@ const data = {
                 name: '電子裝置及音訊錄音控制方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I672630', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I672630', status: patentStatus.granted },
+                    { text: 'TW I672630', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI672630', status: patentStatus.granted },
                 ],
                 intro: '一種可按壓錄音的通話',
             },
@@ -168,7 +168,7 @@ const data = {
                 name: '網頁內容自我保護方法及伺服器',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669624', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I669624', status: patentStatus.granted },
+                    { text: 'TW I669624', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669624', status: patentStatus.granted },
                     { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
                     { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: patentStatus.granted },
                 ],
@@ -182,7 +182,7 @@ const data = {
                 name: '電子裝置與其離線更新程式的方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669614', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I669614', status: patentStatus.granted },
+                    { text: 'TW I669614', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669614', status: patentStatus.granted },
                     { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
                 ],
                 intro: '一種藉由內嵌式瀏覽器實踐更新離線程式的方法',
@@ -231,7 +231,7 @@ const data = {
                 name: '電子裝置與其操作方法以及伺服器',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I641969', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_I641969', status: patentStatus.granted },
+                    { text: 'TW I641969', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI641969', status: patentStatus.granted },
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
