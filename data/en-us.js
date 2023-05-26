@@ -146,7 +146,7 @@ const data = {
                 name: 'Display Device and Display Method Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201947383', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201947383', status: false },
+                    { text: 'TW 201947383', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201947383', status: false },
                 ],
                 intro: 'A layer-based content management system.',
             },
@@ -197,7 +197,7 @@ const data = {
                 name: 'Electronic Device and Web Page Management Method Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201926017', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201926017', status: false },
+                    { text: 'TW 201926017', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201926017', status: false },
                 ],
                 intro: 'A method for detecting window/tabs dependencies of browser.',
             },
@@ -209,7 +209,7 @@ const data = {
                 name: 'Electronic Device and Offline Operation of Web Application Program Interface Method Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201917568', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201917568', status: false },
+                    { text: 'TW 201917568', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201917568', status: false },
                 ],
                 intro: 'A Web APIs in offline contexts.',
             },
@@ -221,7 +221,7 @@ const data = {
                 name: 'Electronic Device and Control Method Thereof based on Drag-and-Drop Operation',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201905670', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwekm?!!FR_201905670', status: false },
+                    { text: 'TW 201905670', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201905670', status: false },
                 ],
                 intro: 'A browser-based dialing method using drag and drop.',
             },

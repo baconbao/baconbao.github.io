@@ -144,7 +144,7 @@ const data = {
                 name: '顯示裝置及其顯示方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201947383', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201947383', status: false },
+                    { text: 'TW 201947383', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201947383', status: false },
                 ],
                 intro: '一種圖層式內容管理系統',
             },
@@ -195,7 +195,7 @@ const data = {
                 name: '電子裝置與其視窗管理方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201926017', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201926017', status: false },
+                    { text: 'TW 201926017', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201926017', status: false },
                 ],
                 intro: '一種偵測瀏覽器視窗的依賴的方法',
             },
@@ -207,7 +207,7 @@ const data = {
                 name: '電子裝置與其網頁應用程式介面的離線運行方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201917568', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201917568', status: false },
+                    { text: 'TW 201917568', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201917568', status: false },
                 ],
                 intro: '一種用於離線情境的Web APIs',
             },
@@ -219,7 +219,7 @@ const data = {
                 name: '電子裝置及其基於拖放操作的控制方法',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201905670', url: 'https://twpat-simple.tipo.gov.tw/tipotwoc/tipotwkm?!!FR_201905670', status: false },
+                    { text: 'TW 201905670', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201905670', status: false },
                 ],
                 intro: '一種可在瀏覽器上拖放的撥號方式',
             },
