@@ -32,7 +32,7 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I majored in Information Management, currently as a PhD student at National Taiwan University. I enjoy rolling, acting cute, and slapping belly in the ocean of knowledges.',
+        intro: 'I majored in Information Management, currently as a PhD student at National Taiwan University. I enjoy rolling, acting cute, and slapping belly in the ocean of knowledges (●\'◡\'●).',
     },
     researchInterest: {
         title: 'Research interests',
