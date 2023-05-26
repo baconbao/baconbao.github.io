@@ -4,7 +4,7 @@
 
 ```
 $ cd <project>
-$ npm install
+$ npm install --save
 ```
 
 ## Commands and Flows
