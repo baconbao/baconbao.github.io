@@ -107,7 +107,7 @@ const data = {
                 name: 'Method of Identity Authentication for Voice over Internet Protocol Call and Related Device',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I711293', url: 'https:/https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI711293', status: patentStatus.granted },
+                    { text: 'TW I711293', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI711293', status: patentStatus.granted },
                     { text: 'CN 111835675', url: 'https://patents.google.com/patent/CN111835675A', status: false },
                     { text: 'US 20200313901', url: 'https://patents.google.com/patent/US20200313901A1', status: patentStatus.granted },
                     { text: 'EP EP3716526', url: 'https://patents.google.com/patent/EP3716526A1', status: false },
@@ -122,7 +122,7 @@ const data = {
                 name: 'Electronic Device and Resource Health Management Method',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I704783', url: 'https:/https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI704783', status: patentStatus.granted },
+                    { text: 'TW I704783', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI704783', status: patentStatus.granted },
                 ],
                 intro: 'A method for detecting healthy of resources across domains and protocols.',
             },
@@ -134,7 +134,7 @@ const data = {
                 name: 'Method and Device for Loading Web Page based on Iframe',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I692232', url: 'https:/https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI692232', status: patentStatus.granted },
+                    { text: 'TW I692232', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI692232', status: patentStatus.granted },
                 ],
                 intro: 'A method for presenting HTTP/HTTPS mixed contents on a webpage.',
             },
@@ -146,7 +146,7 @@ const data = {
                 name: 'Display Device and Display Method Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201947383', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201947383', status: false },
+                    { text: 'TW 201947383', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURL201947383', status: false },
                 ],
                 intro: 'A layer-based content management system.',
             },
@@ -158,7 +158,7 @@ const data = {
                 name: 'Electronic Device and Control Method of Audio Recording',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I672630', url: 'https:/https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI672630', status: patentStatus.granted },
+                    { text: 'TW I672630', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI672630', status: patentStatus.granted },
                 ],
                 intro: 'A method of press-to-record calls.',
             },
@@ -170,7 +170,7 @@ const data = {
                 name: 'Webpage Content Self-Protection Method and Associated Server',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669624', url: 'https:/https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669624', status: patentStatus.granted },
+                    { text: 'TW I669624', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669624', status: patentStatus.granted },
                     { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
                     { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: patentStatus.granted },
                 ],
@@ -184,7 +184,7 @@ const data = {
                 name: 'Electronic Device and Method for Offline Updating Application Program Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I669614', url: 'https:/https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669614', status: patentStatus.granted },
+                    { text: 'TW I669614', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669614', status: patentStatus.granted },
                     { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
                 ],
                 intro: 'A method for updating applications through an embedded browser in offline context.',
@@ -197,7 +197,7 @@ const data = {
                 name: 'Electronic Device and Web Page Management Method Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201926017', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201926017', status: false },
+                    { text: 'TW 201926017', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURL201926017', status: false },
                 ],
                 intro: 'A method for detecting window/tabs dependencies of browser.',
             },
@@ -209,7 +209,7 @@ const data = {
                 name: 'Electronic Device and Offline Operation of Web Application Program Interface Method Thereof',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201917568', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201917568', status: false },
+                    { text: 'TW 201917568', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURL201917568', status: false },
                 ],
                 intro: 'A Web APIs in offline contexts.',
             },
@@ -221,7 +221,7 @@ const data = {
                 name: 'Electronic Device and Control Method Thereof based on Drag-and-Drop Operation',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW 201905670', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURL201905670', status: false },
+                    { text: 'TW 201905670', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURL201905670', status: false },
                 ],
                 intro: 'A browser-based dialing method using drag and drop.',
             },
@@ -233,7 +233,7 @@ const data = {
                 name: 'Electronic Device and Operation Method Thereof and Server Host Device',
                 applicant: 'Acer Inc.',
                 links: [
-                    { text: 'TW I641969', url: 'https:/https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI641969', status: patentStatus.granted },
+                    { text: 'TW I641969', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI641969', status: patentStatus.granted },
                     { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
