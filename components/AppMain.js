@@ -398,7 +398,10 @@ const AppMain = (data) => {
                     <>
                         <ContactBlock data={data.contact} symbol={symbol} />
                         <br />
-                        <SocialBlock data={data.social} symbol={symbol} />
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                            <SocialBlock data={data.social} symbol={symbol} />
+                            <LanguageCard lang={data.lang} />
+                        </div>
                         <br />
                         <CopyrightCard />
                     </>

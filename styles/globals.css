@@ -7,7 +7,7 @@ body {
     background: #f0f0f0;
     font-family: 'Segoe UI', 'Microsoft JhengHei', '·L³n¥¿¶ÂÅé', 'Heiti TC', 'WenQuanYi Zen Hei', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: calc(14px + 0.33vw);
+    font-size: calc(15px + 0.33vw);
 }
 h1, h2, h3, h4, h5 {
     margin: 0;
@@ -25,8 +25,7 @@ a {
 #languageCard {
     background: #fff;
     text-align: right;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding: 20px 10vw;
 }
 #languageCard .switch .item {
     display: inline-block;
@@ -114,6 +113,9 @@ a {
     unicode-bidi: bidi-override;
     direction: rtl;
     content: "moc.li";
+}
+#footerCard #languageCard {
+    padding: 0;
 }
 #copyright {
     color: #ffffff;
