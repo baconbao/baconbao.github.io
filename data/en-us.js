@@ -22,8 +22,8 @@ const pubSelf = {
 
 const data = {
     lang: 'en-us',
-    pageTitle: 'I am BaconBao, I love technology and its application!',
-    pageDescription: 'Hi, I am BaconBao, I love technology and its application!',
+    pageTitle: 'I am BaconBao, I love wandering in the ocean of knowledge!',
+    pageDescription: 'Hi, I am BaconBao, I love to explore IT application and IT-related consumer behavior! I enjoy wandering in the ocean of knowledge.',
     pageOgImage: 'images/ogimage_en.jpg',
     symbol: {
         and: ', ',
@@ -32,7 +32,7 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I majored in Information Management, currently as a PhD student at National Taiwan University. I enjoy rolling, acting cute, and slapping belly in the ocean of knowledges (●\'◡\'●).',
+        intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge, sometimes rolling, acting cute, and slapping belly in this ocean. (●\'◡\'●)',
     },
     researchInterest: {
         title: 'Research interests',
@@ -41,10 +41,10 @@ const data = {
                 text: 'Web Application',
             },
             {
-                text: 'User Behavior',
+                text: 'Consumer Behavior',
             },
             {
-                text: 'Digital Marketing',
+                text: 'Digital Marketing / Online Marketing',
             },
         ],
         formatter: {
@@ -71,7 +71,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.degree} | ${item.school}, ${item.dept}`,
+            itemText: (item) => `${item.degree} | ${item.dept}, ${item.school}`,
         },
     },
     exp: {
@@ -171,7 +171,7 @@ const data = {
                 applicant: 'Acer Inc.',
                 links: [
                     { text: 'TW I669624', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669624', status: patentStatus.granted },
-                    { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
+                    { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: patentStatus.granted },
                     { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: patentStatus.granted },
                 ],
                 intro: 'A webpage self-protection method based on one-time passwords.',
@@ -234,14 +234,14 @@ const data = {
                 applicant: 'Acer Inc.',
                 links: [
                     { text: 'TW I641969', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI641969', status: patentStatus.granted },
-                    { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
+                    { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: patentStatus.granted },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
                 intro: 'A flexible web-based voice solution in both online and offline contexts.',
             },
         ],
         formatter: {
-            itemText: (item) => `${item.inventors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," Applicant ${item.applicant}`,
+            itemText: (item) => `${item.inventors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," Applicant is ${item.applicant}`,
             linkText: (link) => link.text,
             generateAbstract: (item) => `${item.intro}`,
             linkGa: (link) => {
@@ -308,7 +308,7 @@ const data = {
                 ],
                 name: 'In mobile search, the more you see, the more you love ? How consumer knowledge and screen sizes affect branding effect',
                 on: 'Sun Yat-Sen Management Review',
-                note: '',
+                note: 'DOI: 10.6160/SYSMR.202009_28(3).0001',
                 links: [
                     { name: 'LINK', url: 'http://mgtr.cm.nsysu.edu.tw/fulljournal_process.php?id=148&pno=M5f6998fdb6ae0&p=379', ga: 'paper_2020-1' },
                 ],
@@ -327,9 +327,30 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," ${item.on}`,
+            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," ${item.on}. ${item.note}`,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
+        },
+    },
+    certification: {
+        title: 'Certification',
+        items: [
+            {
+                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program - Google Ads',
+                subtitle: 'Earned through passing certifications such as Google Ads Search Certification and Video Certification.',
+            },
+            {
+                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program - Google Cloud',
+                subtitle: 'Earned through proof of understanding that includes Infrastructure, Networking, Security, Data, ML, and AI in Google Cloud, etc.',
+            },
+            {
+                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program - Google Analytics',
+                subtitle: 'Earned through passing certifications such as Google Analytics Certification.',
+            },
+        ],
+        formatter: {
+            itemMaintitle: (item) => item.maintitle,
+            itemSubtitle: (item) => item.subtitle,
         },
     },
     nonprofit: {
@@ -386,17 +407,17 @@ const data = {
     },
     social: {
         title: '',
-        text: 'Follow me: ',
+        text: '',
         links: [
-            {
-                text: 'Facebook',
-                url: 'https://www.facebook.com/baconbao',
-                ga: 'follow_fb',
-            },
             {
                 text: 'GitHub',
                 url: 'https://github.com/baconbao',
                 ga: 'follow_github',
+            },
+            {
+                text: 'Google Scholar',
+                url: 'https://scholar.google.com/citations?user=OKdHx2YAAAAJ',
+                ga: 'follow_gscholar',
             },
         ],
         formatter: {

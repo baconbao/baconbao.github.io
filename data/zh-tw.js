@@ -22,27 +22,27 @@ const pubSelf = {
 
 const data = {
     lang: 'zh-tw',
-    pageTitle: '我是 BaconBao, 我熱愛探索科技與它的應用！',
-    pageDescription: '我是 BaconBao ，一個發現熱情就很難停下腳步的人，熱愛探索科技與它的應用。',
+    pageTitle: '我是 BaconBao, 我喜歡徜徉在知識的海洋裡！',
+    pageDescription: '我是 BaconBao ，喜歡徜徉在知識的海洋裡，熱愛探索IT應用與IT相關的消費者行為。',
     pageOgImage: 'images/ogimage.jpg',
     symbol,
     main: {
         hello: '嗨！我是',
         name: 'BaconBao',
         akaName: '林耕葆',
-        intro: '我的學識背景是資訊管理，目前在臺灣大學攻讀博士學位。平時就熱愛探索新奇的資訊科技，以及這些資訊科技對人們的影響。興趣是在知識的海洋裡翻滾、賣萌、拍肚皮 (●\'◡\'●).',
+        intro: '熱愛探索IT應用與IT相關的消費者行為，目前在臺灣大學攻讀博士學位。我喜歡徜徉在知識的海洋裡，有時在這片海洋裡翻滾、賣萌、拍肚皮。 (●\'◡\'●)',
     },
     researchInterest: {
         title: '研究興趣',
         items: [
             {
-                text: '網路應用',
+                text: 'Web應用',
             },
             {
-                text: '使用者行為',
+                text: '消費者行為',
             },
             {
-                text: '數位行銷',
+                text: '數位行銷 / 網路行銷',
             },
         ],
         formatter: {
@@ -69,7 +69,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.degree} | ${item.school}，${item.dept}`,
+            itemText: (item) => `${item.degree} | ${item.dept}, ${item.school}`,
         },
     },
     exp: {
@@ -169,7 +169,7 @@ const data = {
                 applicant: 'Acer Inc.',
                 links: [
                     { text: 'TW I669624', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669624', status: patentStatus.granted },
-                    { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: false },
+                    { text: 'CN 111079192', url: 'https://patents.google.com/patent/CN111079192A', status: patentStatus.granted },
                     { text: 'US 20200089904', url: 'https://patents.google.com/patent/US20200089904A1', status: patentStatus.granted },
                 ],
                 intro: '一種基於一次性密碼的網頁自我保護方法',
@@ -232,7 +232,7 @@ const data = {
                 applicant: 'Acer Inc.',
                 links: [
                     { text: 'TW I641969', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI641969', status: patentStatus.granted },
-                    { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: false },
+                    { text: 'CN 109428925', url: 'https://patents.google.com/patent/CN109428925A', status: patentStatus.granted },
                     { text: 'US 20190007520', url: 'https://patents.google.com/patent/US20190007520A1', status: false },
                 ],
                 intro: '一種適用在線與離線情境的基於瀏覽器的靈活語音方法',
@@ -306,7 +306,7 @@ const data = {
                 ],
                 name: '行動搜尋下，你會越看越愛它嗎？使用者知識與螢幕尺寸如何影響品牌效果',
                 on: '中山管理評論',
-                note: '',
+                note: 'DOI: 10.6160/SYSMR.202009_28(3).0001',
                 links: [
                     { name: 'LINK', url: 'http://mgtr.cm.nsysu.edu.tw/fulljournal_process.php?id=148&pno=M5f6998fdb6ae0&p=379', ga: 'paper_2020-1' },
                 ],
@@ -325,9 +325,30 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，${item.on}`,
+            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，${item.on}. ${item.note}`,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
+        },
+    },
+    certification: {
+        title: '認證',
+        items: [
+            {
+                maintitle: '2023年Google數位人才認證 - Google Ads 領域',
+                subtitle: '經由通過Google Ads搜尋廣告認證、影片廣告認證等',
+            },
+            {
+                maintitle: '2023年Google數位人才認證 - Google Cloud 領域',
+                subtitle: '經由證明具備 Google Cloud 的 Infrastructure, Networking, Security, Data, ML, and AI 等知識',
+            },
+            {
+                maintitle: '2023年Google數位人才認證 - Google Analytics 領域',
+                subtitle: '經由通過Google Analytics認證',
+            },
+        ],
+        formatter: {
+            itemMaintitle: (item) => item.maintitle,
+            itemSubtitle: (item) => item.subtitle,
         },
     },
     nonprofit: {
@@ -380,21 +401,21 @@ const data = {
         },
     },
     contact: {
-        title: '聯絡和關注',
+        title: '聯絡',
     },
     social: {
         title: '',
-        text: '關注：',
+        text: '',
         links: [
-            {
-                text: 'Facebook',
-                url: 'https://www.facebook.com/baconbao',
-                ga: 'follow_fb',
-            },
             {
                 text: 'GitHub',
                 url: 'https://github.com/baconbao',
                 ga: 'follow_github',
+            },
+            {
+                text: 'Google Scholar',
+                url: 'https://scholar.google.com/citations?user=OKdHx2YAAAAJ',
+                ga: 'follow_gscholar',
             },
         ],
         formatter: {

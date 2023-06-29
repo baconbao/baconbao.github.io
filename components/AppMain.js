@@ -150,6 +150,22 @@ const PublicationBlock = ({ data, symbol }) => (
         </ul>
     </div>
 );
+const CertificationBlock = ({ data }) => (
+    <div>
+        <h2>{data.title}</h2>
+        <ul>
+            {('items' in data) && data.items.map((item, i) => (
+                <li key={i}>
+                    {data.formatter.itemMaintitle(item)}
+                    <br />
+                    <small>
+                        {data.formatter.itemSubtitle(item)}
+                    </small>
+                </li>
+            ))}
+        </ul>
+    </div>
+);
 const NonprofitBlock = ({ data }) => (
     <div>
         <h2>{data.title}</h2>
@@ -371,6 +387,7 @@ const AppMain = (data) => {
                         <PublicationBlock data={data.publication} symbol={symbol} />
                         <InventBlock data={data.invent} symbol={symbol} />
                         <AwardBlock data={data.award} symbol={symbol} />
+                        <CertificationBlock data={data.certification} />
                         <NonprofitBlock data={data.nonprofit} symbol={symbol} />
                         <EsportBlock data={data.esport} symbol={symbol} />
                     </>
