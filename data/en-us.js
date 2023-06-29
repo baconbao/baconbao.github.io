@@ -333,18 +333,18 @@ const data = {
         },
     },
     certification: {
-        title: 'Certification',
+        title: 'Noteworthy Certifications',
         items: [
             {
-                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program - Google Ads',
+                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program (1/3) - Google Ads',
                 subtitle: 'Earned through passing certifications such as Google Ads Search Certification and Video Certification.',
             },
             {
-                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program - Google Cloud',
+                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program (2/3) - Google Cloud',
                 subtitle: 'Earned through proof of understanding that includes Infrastructure, Networking, Security, Data, ML, and AI in Google Cloud, etc.',
             },
             {
-                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program - Google Analytics',
+                maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program (3/3) - Google Analytics',
                 subtitle: 'Earned through passing certifications such as Google Analytics Certification.',
             },
         ],

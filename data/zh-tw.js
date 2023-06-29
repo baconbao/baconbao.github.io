@@ -331,18 +331,18 @@ const data = {
         },
     },
     certification: {
-        title: '認證',
+        title: '具有特色的認證',
         items: [
             {
-                maintitle: '2023年Google數位人才認證 - Google Ads 領域',
+                maintitle: '2023年Google數位人才認證 (1/3) - Google Ads 領域',
                 subtitle: '經由通過Google Ads搜尋廣告認證、影片廣告認證等',
             },
             {
-                maintitle: '2023年Google數位人才認證 - Google Cloud 領域',
+                maintitle: '2023年Google數位人才認證 (2/3) - Google Cloud 領域',
                 subtitle: '經由證明具備 Google Cloud 的 Infrastructure, Networking, Security, Data, ML, and AI 等知識',
             },
             {
-                maintitle: '2023年Google數位人才認證 - Google Analytics 領域',
+                maintitle: '2023年Google數位人才認證 (3/3) - Google Analytics 領域',
                 subtitle: '經由通過Google Analytics認證',
             },
         ],
