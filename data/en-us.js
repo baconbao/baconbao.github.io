@@ -333,7 +333,7 @@ const data = {
         },
     },
     certification: {
-        title: 'Noteworthy Certifications',
+        title: 'Featured certifications',
         items: [
             {
                 maintitle: 'Certification of Google Taiwan’s 2023 Kepler Program (1/3) - Google Ads',
