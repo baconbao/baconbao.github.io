@@ -234,7 +234,7 @@ const ContactBlock = ({ data }) => (
         </div>
     </div>
 );
-const SocialBlock = ({ data, symbol }) => (
+const SocialBlock = ({ data }) => (
     <div id="follow">
         {data.text}
         {('links' in data) && data.links.map((link, index) => (
@@ -246,7 +246,7 @@ const SocialBlock = ({ data, symbol }) => (
                 >
                     {data.formatter.linkText(link)}
                 </a>
-                {(index < (data.links.length - 1)) && (`${symbol.and}`)}
+                {(index < (data.links.length - 1)) && (' , ')}
             </span>
         ))}
     </div>
@@ -398,7 +398,7 @@ const AppMain = (data) => {
                     <>
                         <ContactBlock data={data.contact} symbol={symbol} />
                         <br />
-                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
                             <SocialBlock data={data.social} symbol={symbol} />
                             <LanguageCard lang={data.lang} />
                         </div>
