@@ -276,6 +276,7 @@ const data = {
                 years: ['2015'],
                 by: 'National Central University',
                 labels: ['Business', 'Marketing'],
+                role: 'team leader',
                 with: ['鍾佳琳', '黃冠菱', '陳毅寰', '陳亭安'],
             },
             {
@@ -284,6 +285,7 @@ const data = {
                 years: ['2013'],
                 by: 'Google Inc.',
                 labels: ['Marketing'],
+                role: 'team leader',
                 with: ['曹志龍', '黃梃展'],
             },
             {
@@ -292,6 +294,7 @@ const data = {
                 years: ['2013'],
                 by: 'National Pingtung Institute of Commerce',
                 labels: ['Technology', 'Business'],
+                role: 'team leader',
                 with: ['曹志龍', '黃梃展'],
             },
             {
@@ -300,6 +303,7 @@ const data = {
                 years: ['2005', '2007'],
                 by: 'The Ming Cheng JHS of Pingtung County',
                 labels: ['Technology'],
+                role: 'team leader',
                 with: ['my classmates'],
             },
         ],
@@ -308,7 +312,7 @@ const data = {
             getItemLabels: (item) => item.labels,
             withMembers: (item) => {
                 let str = '';
-                if (item.with.length > 0) str = `with ${item.with.join(symbol.and)}`;
+                if (item.with.length > 0) str = `Serve as ${item.role} and work together with ${item.with.join(symbol.and)}.`;
                 return str;
             },
         },

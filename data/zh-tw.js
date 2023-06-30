@@ -274,6 +274,7 @@ const data = {
                 years: ['2015'],
                 by: '國立中央大學',
                 labels: ['商業', '行銷'],
+                role: '隊長',
                 with: ['鍾佳琳', '黃冠菱', '陳毅寰', '陳亭安'],
             },
             {
@@ -282,6 +283,7 @@ const data = {
                 years: ['2013'],
                 by: 'Google Inc.',
                 labels: ['行銷'],
+                role: '隊長',
                 with: ['曹志龍', '黃梃展'],
             },
             {
@@ -290,6 +292,7 @@ const data = {
                 years: ['2013'],
                 by: '國立屏東商業技術學院',
                 labels: ['科技', '商業'],
+                role: '隊長',
                 with: ['曹志龍', '黃梃展'],
             },
             {
@@ -298,6 +301,7 @@ const data = {
                 years: ['2005', '2007'],
                 by: '屏東縣明正國中',
                 labels: ['科技'],
+                role: '隊長',
                 with: ['國中同學們'],
             },
         ],
@@ -306,7 +310,7 @@ const data = {
             getItemLabels: (item) => item.labels,
             withMembers: (item) => {
                 let str = '';
-                if (item.with.length > 0) str = `與 ${item.with.join(symbol.and)}`;
+                if (item.with.length > 0) str = `擔任${item.role}，與 ${item.with.join(symbol.and)} 合力達成.`;
                 return str;
             },
         },
