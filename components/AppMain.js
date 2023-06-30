@@ -116,6 +116,18 @@ const AwardBlock = ({ data }) => (
             {('items' in data) && data.items.map((item, i) => (
                 <li key={i}>
                     {data.formatter.itemText(item)}
+                    {' | '}
+                    {data.formatter.getItemLabels(item).map((label) => (
+                        <span className="item-label">
+                            {label}
+                        </span>
+                    ))}
+                    {(data.formatter.withMembers(item) !== '') && (
+                        <>
+                            <br />
+                            <small>{data.formatter.withMembers(item)}</small>
+                        </>
+                    )}
                 </li>
             ))}
         </ul>
@@ -128,6 +140,8 @@ const PublicationBlock = ({ data, symbol }) => (
             {('items' in data) && data.items.map((item, i) => (
                 <li key={i}>
                     {data.formatter.itemText(item)}
+                    {' '}
+                    <small>{data.formatter.itemNote(item)}</small>
                     {' '}
                     {('links' in item && item.links.length > 0) && (
                         <span className="item-link">

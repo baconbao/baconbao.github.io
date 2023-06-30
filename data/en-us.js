@@ -259,40 +259,58 @@ const data = {
                 originalInfo: false,
                 years: ['2017', '2018'],
                 by: 'Acer Inc.',
+                labels: ['Technology', 'Research'],
+                with: [],
             },
             {
                 name: 'The Best Paper of Master Thesis Presentation',
                 originalInfo: '(Chinese: 碩士論文計畫發表會最佳論文獎)',
                 years: ['2016'],
                 by: 'Department of information management of NCU',
+                labels: ['Research'],
+                with: [],
             },
             {
                 name: 'First place of Qianlima Taohuayuan entrepreneurial competition Ecommerce Group',
                 originalInfo: '(Chinese: 桃園縣千里馬尋桃花源創業競賽電子商務組冠軍)',
                 years: ['2015'],
                 by: 'National Central University',
+                labels: ['Business', 'Marketing'],
+                with: ['鍾佳琳', '黃冠菱', '陳毅寰', '陳亭安'],
             },
             {
                 name: 'Second prize of Google AdWords Challenge',
                 originalInfo: false,
                 years: ['2013'],
                 by: 'Google Inc.',
+                labels: ['Marketing'],
+                with: ['曹志龍', '黃梃展'],
             },
             {
                 name: 'First place of NPIC Annual Researching Results Competition Web Group',
                 originalInfo: '(Chinese: 資訊學群專題成果競賽網路應用組冠軍)',
                 years: ['2013'],
                 by: 'National Pingtung Institute of Commerce',
+                labels: ['Technology', 'Business'],
+                with: ['曹志龍', '黃梃展'],
             },
             {
                 name: 'First place of Class Webpage Development Competition',
                 originalInfo: '(Chinese: 班級網頁製作比賽冠軍)',
                 years: ['2005', '2007'],
                 by: 'The Ming Cheng JHS of Pingtung County',
+                labels: ['Technology'],
+                with: ['my classmates'],
             },
         ],
         formatter: {
-            itemText: (item) => `${item.name} ${item.originalInfo || ''} | Awarded by ${item.by}, (${item.years.join(symbol.and)})`,
+            itemText: (item) => `${item.name} ${item.originalInfo || ''}, ${item.by}, (${item.years.join(symbol.and)})`,
+            getItemLabels: (item) => item.labels,
+            withMembers: (item) => {
+                let str = '';
+                if (item.with.length > 0) str = `with ${item.with.join(symbol.and)}`;
+                return str;
+            },
         },
     },
     publication: {
@@ -308,7 +326,7 @@ const data = {
                 ],
                 name: 'In mobile search, the more you see, the more you love ? How consumer knowledge and screen sizes affect branding effect',
                 on: 'Sun Yat-Sen Management Review',
-                note: 'DOI: 10.6160/SYSMR.202009_28(3).0001',
+                note: 'doi:10.6160/SYSMR.202009_28(3).0001',
                 links: [
                     { name: 'LINK', url: 'http://mgtr.cm.nsysu.edu.tw/fulljournal_process.php?id=148&pno=M5f6998fdb6ae0&p=379', ga: 'paper_2020-1' },
                 ],
@@ -327,7 +345,8 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," ${item.on}. ${item.note}`,
+            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," ${item.on}.`,
+            itemNote: (item) => item.note,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
         },

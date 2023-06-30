@@ -257,40 +257,58 @@ const data = {
                 originalInfo: false,
                 years: ['2017', '2018'],
                 by: 'Acer Inc.',
+                labels: ['科技', '研究'],
+                with: [],
             },
             {
                 name: '碩士論文計畫發表會最佳論文獎',
                 originalInfo: false,
                 years: ['2016'],
                 by: '國立中央大學資訊管理學系',
+                labels: ['研究'],
+                with: [],
             },
             {
                 name: '桃園縣千里馬尋桃花源創業競賽電子商務組冠軍',
                 originalInfo: false,
                 years: ['2015'],
                 by: '國立中央大學',
+                labels: ['商業', '行銷'],
+                with: ['鍾佳琳', '黃冠菱', '陳毅寰', '陳亭安'],
             },
             {
                 name: 'Google AdWords Challenge 亞軍',
                 originalInfo: false,
                 years: ['2013'],
                 by: 'Google Inc.',
+                labels: ['行銷'],
+                with: ['曹志龍', '黃梃展'],
             },
             {
                 name: '資訊學群專題成果競賽網路應用組冠軍',
                 originalInfo: false,
                 years: ['2013'],
                 by: '國立屏東商業技術學院',
+                labels: ['科技', '商業'],
+                with: ['曹志龍', '黃梃展'],
             },
             {
                 name: '班級網頁製作比賽冠軍',
                 originalInfo: false,
                 years: ['2005', '2007'],
                 by: '屏東縣明正國中',
+                labels: ['科技'],
+                with: ['國中同學們'],
             },
         ],
         formatter: {
-            itemText: (item) => `${item.name} | ${item.years.join(symbol.and)}年由${item.by}頒發`,
+            itemText: (item) => `${item.name}, ${item.by}, (${item.years.join(symbol.and)})`,
+            getItemLabels: (item) => item.labels,
+            withMembers: (item) => {
+                let str = '';
+                if (item.with.length > 0) str = `與 ${item.with.join(symbol.and)}`;
+                return str;
+            },
         },
     },
     publication: {
@@ -306,7 +324,7 @@ const data = {
                 ],
                 name: '行動搜尋下，你會越看越愛它嗎？使用者知識與螢幕尺寸如何影響品牌效果',
                 on: '中山管理評論',
-                note: 'DOI: 10.6160/SYSMR.202009_28(3).0001',
+                note: 'doi:10.6160/SYSMR.202009_28(3).0001',
                 links: [
                     { name: 'LINK', url: 'http://mgtr.cm.nsysu.edu.tw/fulljournal_process.php?id=148&pno=M5f6998fdb6ae0&p=379', ga: 'paper_2020-1' },
                 ],
@@ -325,7 +343,8 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，${item.on}. ${item.note}`,
+            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，${item.on}.`,
+            itemNote: (item) => item.note,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
         },
