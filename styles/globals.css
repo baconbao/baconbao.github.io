@@ -91,6 +91,7 @@ a {
     padding: 0 10px 3px;
     margin-left: 7px;
     font-size: 0.7em;
+    white-space: nowrap;
 }
 #footerCard {
     background: #ffffff;
