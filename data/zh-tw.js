@@ -46,7 +46,7 @@ const data = {
                 text: '感知',
             },
         ],
-        describe: '雖然我有不少IT開發的經驗，但我更想了解當IT消費者與IT互動時的主觀感受與想法。\n因此，我熱愛探索有關IT消費者的行為與感知相關的現象的成因(‘why’)與其因果關係(‘how’)，特別是涉及矛盾的現象。',
+        describe: '雖然我有不少IT開發的經驗，但我更想了解IT消費者與IT互動時的主觀感受與想法。\n因此，我熱愛探索與IT消費者的行為與感知有關的現象的成因(‘why’)與其因果關係(‘how’)，特別是涉及矛盾的現象。',
         formatter: {
             itemText: (item) => `${item.text}`,
             moreDescribe: (describe) => describe,
