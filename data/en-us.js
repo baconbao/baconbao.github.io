@@ -44,11 +44,13 @@ const data = {
                 text: 'Consumer Behavior',
             },
             {
-                text: 'Digital Marketing / Online Marketing',
+                text: 'Perception',
             },
         ],
+        describe: 'I have experience as a developer, however, I am more interested in understanding IT consumers’ subjective feelings and thoughts. \nTherefore, I am passionate about exploring the reasons (the ‘how’) and causal relationships (the ‘why’) of events or phenomena related to IT consumers, particularly phenomena involve paradox.',
         formatter: {
             itemText: (item) => `${item.text}`,
+            moreDescribe: (describe) => describe,
         },
     },
     edu: {

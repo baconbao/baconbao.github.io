@@ -42,11 +42,13 @@ const data = {
                 text: '消費者行為',
             },
             {
-                text: '數位行銷 / 網路行銷',
+                text: '感知',
             },
         ],
+        describe: '雖然我具有開發者的經驗，但我更想了解IT消費者或用戶的主觀感受與想法。\n因此，我熱愛探索有關IT消費者或用戶的事件或現像的成因(why)與其因果關係(how)，特別是涉及矛盾的現象。',
         formatter: {
             itemText: (item) => `${item.text}`,
+            moreDescribe: (describe) => describe,
         },
     },
     edu: {

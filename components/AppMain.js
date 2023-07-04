@@ -62,6 +62,9 @@ const ResIntBlock = ({ data }) => (
                 </li>
             ))}
         </ul>
+        <pre>
+            {data.formatter.moreDescribe(data.describe)}
+        </pre>
     </div>
 );
 const ExpBlock = ({ data }) => (
