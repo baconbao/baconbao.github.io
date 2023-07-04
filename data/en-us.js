@@ -32,7 +32,7 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge.',
+        intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge.  (●\'◡\'●)',
         // intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge, sometimes rolling, acting cute, and slapping belly in this ocean. (●\'◡\'●)',
     },
     researchInterest: {
@@ -48,7 +48,7 @@ const data = {
                 text: 'Perception',
             },
         ],
-        describe: 'I have some experiences in IT development, however, I am more interested in understanding IT consumers’ subjective feelings and thoughts. \nTherefore, I am passionate about exploring the reasons (the ‘how’) and causal relationships (the ‘why’) of events or phenomena related to IT consumers, particularly phenomena involve paradox.',
+        describe: 'I have some experiences in IT development, however, I am more interested in understanding IT consumers’ subjective feelings and thoughts. Therefore, I am passionate about exploring the reasons (the ‘how’) and causal relationships (the ‘why’) of events or phenomena related to IT consumers, particularly phenomena involve paradox.',
         formatter: {
             itemText: (item) => `${item.text}`,
             moreDescribe: (describe) => describe,
