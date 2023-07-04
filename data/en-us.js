@@ -23,7 +23,7 @@ const pubSelf = {
 const data = {
     lang: 'en-us',
     pageTitle: 'I am BaconBao, I love wandering in the ocean of knowledge!',
-    pageDescription: 'Hi, I am BaconBao, I love to explore IT application and IT-related consumer behavior! I enjoy wandering in the ocean of knowledge.',
+    pageDescription: 'Hi, I am BaconBao, I love to explore IT application and IT-related consumer behavior! I enjoy wandering in the ocean of knowledge. (●\'◡\'●)',
     pageOgImage: 'images/ogimage_en.jpg',
     symbol: {
         and: ', ',
@@ -32,7 +32,8 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge, sometimes rolling, acting cute, and slapping belly in this ocean. (●\'◡\'●)',
+        intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge.',
+        // intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge, sometimes rolling, acting cute, and slapping belly in this ocean. (●\'◡\'●)',
     },
     researchInterest: {
         title: 'Research interests',
@@ -47,7 +48,7 @@ const data = {
                 text: 'Perception',
             },
         ],
-        describe: 'I have experience as a developer, however, I am more interested in understanding IT consumers’ subjective feelings and thoughts. \nTherefore, I am passionate about exploring the reasons (the ‘how’) and causal relationships (the ‘why’) of events or phenomena related to IT consumers, particularly phenomena involve paradox.',
+        describe: 'I have some experiences in IT development, however, I am more interested in understanding IT consumers’ subjective feelings and thoughts. \nTherefore, I am passionate about exploring the reasons (the ‘how’) and causal relationships (the ‘why’) of events or phenomena related to IT consumers, particularly phenomena involve paradox.',
         formatter: {
             itemText: (item) => `${item.text}`,
             moreDescribe: (describe) => describe,
