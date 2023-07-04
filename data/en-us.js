@@ -48,7 +48,7 @@ const data = {
                 text: 'Perception',
             },
         ],
-        describe: 'I have some experiences in IT development, however, I am more interested in understanding IT consumers’ subjective feelings and thoughts. Therefore, I am passionate about exploring the reasons (the ‘how’) and causal relationships (the ‘why’) of events or phenomena related to IT consumers, particularly phenomena involve paradox.',
+        describe: 'Althrough I have some experiences in IT development, I am more interested in understanding IT consumers’ subjective feelings and thoughts when they interact with IT. Therefore, I am passionate about exploring the reasons (the ‘why’) and causal relationships (the ‘how’) of phenomena related to the behavior and perception of IT consumers, particularly phenomena that involve paradox.',
         formatter: {
             itemText: (item) => `${item.text}`,
             moreDescribe: (describe) => describe,
