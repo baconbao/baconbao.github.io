@@ -32,8 +32,9 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge.  (●\'◡\'●)',
+        intro: 'I enjoy wandering in the ocean of knowledge, and love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University.',
         // intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge, sometimes rolling, acting cute, and slapping belly in this ocean. (●\'◡\'●)',
+        introEmoji: '(●\'◡\'●)',
     },
     researchInterest: {
         title: 'Research interests',
@@ -417,7 +418,7 @@ const data = {
     },
     esport: {
         title: 'Game/Esport',
-        description: 'I am a CSer, "LernHerN" is my nickname in game. I like making video for the e-sports promotion, most of my videos are non-profit, hope you enjoy. If you meet me in game, just say Hi!',
+        description: 'I was a CSer, "LernHerN" is my nickname in game. I like making video for the e-sports promotion, most of my videos are non-profit, hope you enjoy them.',
         promotion: 'Featured video: ',
         links: [
             { text: 'Remembrance of Counter-Strike 1.6', url: 'https://www.youtube.com/watch?v=nrUMZZiheLU', ga: 'cs_movie_1' },

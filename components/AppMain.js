@@ -329,7 +329,8 @@ const MainCard = ({ data }) => (
             </h1>
             <br />
             <div id="mainIntro">
-                {data.intro}
+                {data.intro}<br />
+                {data.introEmoji}
             </div>
         </div>
     </div>
