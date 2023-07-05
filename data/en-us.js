@@ -46,7 +46,7 @@ const data = {
                 text: 'Consumer Behavior',
             },
             {
-                text: 'Perception',
+                text: 'Consumer Perception',
             },
         ],
         describe: 'Althrough I have some experiences in IT development, I am more interested in understanding IT consumers’ subjective feelings and thoughts when they interact with IT. Therefore, I am passionate about exploring the reasons (the ‘why’) and causal relationships (the ‘how’) of phenomena related to the behavior and perception of IT consumers, particularly phenomena that involve paradox.',
