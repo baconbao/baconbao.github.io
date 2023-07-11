@@ -47,7 +47,7 @@ const data = {
                 text: '消費者感知',
             },
         ],
-        describe: '雖然我有不少IT開發的經驗，但我更想了解IT消費者與IT互動時的主觀感受與想法。\n因此，我熱愛探索有關IT消費者感知與行為的現象，包含成因(‘why’)與其因果關係(‘how’)，特別是涉及矛盾的現象。',
+        describe: '雖然我有不少IT開發的經驗，但我更想了解IT消費者與IT互動時的主觀感受與想法。\n因此，我熱愛探索有關IT消費者感知與行為的現象，特別是涉及矛盾的現象，包含成因(‘why’)與其因果關係(‘how’)。',
         formatter: {
             itemText: (item) => `${item.text}`,
             moreDescribe: (describe) => describe,
@@ -416,7 +416,7 @@ const data = {
     },
     esport: {
         title: '遊戲/電競',
-        description: '我過去是個CSer， LernHerN 是我在遊戲中使用的名稱，我擅長用影音去推廣電競，我創作的影片幾乎都沒有個人營利，希望你會喜歡。如果在遊戲中遇到我，就跟我打個招呼吧！',
+        description: '我曾是個CS玩家，LernHerN 是我在遊戲中使用的名稱，我擅長用影音去推廣電競，我創作的影片幾乎都沒有個人營利，希望你會喜歡。如果在遊戲中遇到我，歡迎跟我打個招呼！',
         promotion: '精選兩部影片：',
         links: [
             { text: 'Remembrance of Counter-Strike 1.6', url: 'https://www.youtube.com/watch?v=nrUMZZiheLU', ga: 'cs_movie_1' },
