@@ -316,9 +316,10 @@ const data = {
             getItemLabels: (item) => item.labels,
             withMembers: (item) => {
                 let str = '';
-                if (item.with.length > 0) str = `Serve as ${item.role} and work together with ${item.with.join(symbol.and)}.`;
+                if (item.with.length > 0) str = `Serve as ${item.role} and work together with ${item.with.join(symbol.and)}. *`;
                 return str;
             },
+            notes: () => '* Descending sort by last name',
         },
     },
     publication: {

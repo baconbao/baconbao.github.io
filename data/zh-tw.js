@@ -314,9 +314,10 @@ const data = {
             getItemLabels: (item) => item.labels,
             withMembers: (item) => {
                 let str = '';
-                if (item.with.length > 0) str = `擔任${item.role}，與 ${item.with.join(symbol.and)} 合力達成.`;
+                if (item.with.length > 0) str = `擔任${item.role}，與 ${item.with.join(symbol.and)} 合力達成. *`;
                 return str;
             },
+            notes: () => '* 依照姓名英文讀音逆向排序',
         },
     },
     publication: {

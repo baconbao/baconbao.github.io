@@ -133,6 +133,11 @@ const AwardBlock = ({ data }) => (
                     )}
                 </li>
             ))}
+            <div class="notes">
+                <small>
+                    {data.formatter.notes()}
+                </small>
+            </div>
         </ul>
     </div>
 );
