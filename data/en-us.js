@@ -265,6 +265,7 @@ const data = {
                 by: 'Acer Inc.',
                 labels: ['Technology', 'Research'],
                 with: [],
+                showWithNote: false,
             },
             {
                 name: 'The Best Paper of Master Thesis Presentation',
@@ -273,6 +274,7 @@ const data = {
                 by: 'Department of information management of NCU',
                 labels: ['Research'],
                 with: [],
+                showWithNote: false,
             },
             {
                 name: 'First place of Qianlima Taohuayuan entrepreneurial competition Ecommerce Group',
@@ -282,6 +284,7 @@ const data = {
                 labels: ['Business', 'Marketing'],
                 role: 'team leader',
                 with: ['鍾佳琳', '黃冠菱', '陳毅寰', '陳亭安'],
+                showWithNote: true,
             },
             {
                 name: 'Second prize of Google AdWords Challenge',
@@ -291,6 +294,7 @@ const data = {
                 labels: ['Marketing'],
                 role: 'team leader',
                 with: ['曹志龍', '黃梃展'],
+                showWithNote: true,
             },
             {
                 name: 'First place of NPIC Annual Researching Results Competition Web Group',
@@ -300,6 +304,7 @@ const data = {
                 labels: ['Technology', 'Business'],
                 role: 'team leader',
                 with: ['曹志龍', '黃梃展'],
+                showWithNote: true,
             },
             {
                 name: 'First place of Class Webpage Development Competition',
@@ -309,6 +314,7 @@ const data = {
                 labels: ['Technology'],
                 role: 'team leader',
                 with: ['my classmates'],
+                showWithNote: false,
             },
         ],
         formatter: {
@@ -316,7 +322,7 @@ const data = {
             getItemLabels: (item) => item.labels,
             withMembers: (item) => {
                 let str = '';
-                if (item.with.length > 0) str = `Serve as ${item.role} and work together with ${item.with.join(symbol.and)}. *`;
+                if (item.with.length > 0) str = `Serve as ${item.role} and work together with ${item.with.join(symbol.and)}.${(item.showWithNote) ? '*' : ''}`;
                 return str;
             },
             notes: () => '* Descending sort by last name',

@@ -263,6 +263,7 @@ const data = {
                 by: 'Acer Inc.',
                 labels: ['科技', '研究'],
                 with: [],
+                showWithNote: false,
             },
             {
                 name: '碩士論文計畫發表會最佳論文獎',
@@ -271,6 +272,7 @@ const data = {
                 by: '國立中央大學資訊管理學系',
                 labels: ['研究'],
                 with: [],
+                showWithNote: false,
             },
             {
                 name: '桃園縣千里馬尋桃花源創業競賽電子商務組冠軍',
@@ -280,6 +282,7 @@ const data = {
                 labels: ['商業', '行銷'],
                 role: '隊長',
                 with: ['鍾佳琳', '黃冠菱', '陳毅寰', '陳亭安'],
+                showWithNote: true,
             },
             {
                 name: 'Google AdWords Challenge 亞軍',
@@ -289,6 +292,7 @@ const data = {
                 labels: ['行銷'],
                 role: '隊長',
                 with: ['曹志龍', '黃梃展'],
+                showWithNote: true,
             },
             {
                 name: '資訊學群專題成果競賽網路應用組冠軍',
@@ -298,6 +302,7 @@ const data = {
                 labels: ['科技', '商業'],
                 role: '隊長',
                 with: ['曹志龍', '黃梃展'],
+                showWithNote: true,
             },
             {
                 name: '班級網頁製作比賽冠軍',
@@ -307,6 +312,7 @@ const data = {
                 labels: ['科技'],
                 role: '隊長',
                 with: ['國中同學們'],
+                showWithNote: false,
             },
         ],
         formatter: {
@@ -314,7 +320,7 @@ const data = {
             getItemLabels: (item) => item.labels,
             withMembers: (item) => {
                 let str = '';
-                if (item.with.length > 0) str = `擔任${item.role}，與 ${item.with.join(symbol.and)} 合力達成. *`;
+                if (item.with.length > 0) str = `擔任${item.role}，與 ${item.with.join(symbol.and)} 合力達成.${(item.showWithNote) ? '*' : ''}`;
                 return str;
             },
             notes: () => '* 依照姓名英文讀音逆向排序',
