@@ -187,7 +187,7 @@ const data = {
                 applicant: 'Acer Inc.',
                 links: [
                     { text: 'TW I669614', url: 'https://twpat2.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669614', status: patentStatus.granted },
-                    { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
+                    { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: patentStatus.granted },
                 ],
                 intro: '一種藉由內嵌式瀏覽器實踐更新離線程式的方法',
             },
@@ -423,7 +423,7 @@ const data = {
     },
     esport: {
         title: '遊戲/電競',
-        description: '我曾是個CS玩家，LernHerN 是我在遊戲中使用的名稱，我擅長用影音去推廣電競，我創作的影片幾乎都沒有個人營利，希望你會喜歡。如果在遊戲中遇到我，歡迎跟我打個招呼！',
+        description: '我曾是個CS玩家，LernHerN 是我在遊戲中使用的名稱，我過去製作了一些非營利影片以試圖推廣電競，希望你會喜歡。',
         promotion: '精選兩部影片：',
         links: [
             { text: 'Remembrance of Counter-Strike 1.6', url: 'https://www.youtube.com/watch?v=nrUMZZiheLU', ga: 'cs_movie_1' },

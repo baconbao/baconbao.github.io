@@ -49,7 +49,7 @@ const data = {
                 text: 'Consumer Perception',
             },
         ],
-        describe: 'Althrough I have some experiences in IT development, I am more interested in understanding IT consumers’ subjective feelings and thoughts when they interact with IT, particularly phenomena that involve paradox. Therefore, I am passionate about exploring the reasons (the ‘why’) and causal relationships (the ‘how’) of phenomena related to the behavior and perception of IT consumers.',
+        describe: 'Although I have some experiences in IT development, I am more interested in understanding IT consumers’ subjective feelings and thoughts when they interact with IT, particularly phenomena that involve paradox. Therefore, I am passionate about exploring the reasons (the ‘why’) and causal relationships (the ‘how’) of phenomena related to the behavior and perception of IT consumers.',
         formatter: {
             itemText: (item) => `${item.text}`,
             moreDescribe: (describe) => describe,
@@ -189,7 +189,7 @@ const data = {
                 applicant: 'Acer Inc.',
                 links: [
                     { text: 'TW I669614', url: 'https://twpat1.tipo.gov.tw/twpatc/twpatkm?!!FRURLI669614', status: patentStatus.granted },
-                    { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: false },
+                    { text: 'CN 110362322', url: 'https://patents.google.com/patent/CN110362322A', status: patentStatus.granted },
                 ],
                 intro: 'A method for updating applications through an embedded browser in offline context.',
             },
@@ -271,7 +271,7 @@ const data = {
                 name: 'The Best Paper of Master Thesis Presentation',
                 originalInfo: '(Chinese: 碩士論文計畫發表會最佳論文獎)',
                 years: ['2016'],
-                by: 'Department of information management of NCU',
+                by: 'Department of information management at National Central University',
                 labels: ['Research'],
                 with: [],
                 showWithNote: false,
@@ -287,7 +287,7 @@ const data = {
                 showWithNote: true,
             },
             {
-                name: 'Second prize of Google AdWords Challenge',
+                name: 'Second place of Google AdWords Challenge',
                 originalInfo: false,
                 years: ['2013'],
                 by: 'Google Inc.',
@@ -339,7 +339,7 @@ const data = {
                     pubSelf,
                     { name: 'Yi-Ching Hsieh' },
                 ],
-                name: 'In mobile search, the more you see, the more you love ? How consumer knowledge and screen sizes affect branding effect',
+                name: 'In mobile search, the more you see, the more you love? How consumer knowledge and screen sizes affect branding effect',
                 on: 'Sun Yat-Sen Management Review',
                 note: 'doi:10.6160/SYSMR.202009_28(3).0001',
                 links: [
@@ -360,7 +360,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}, (${item.year}), "${item.name}," ${item.on}.`,
+            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}. (${item.year}). "${item.name}." ${item.on}.`,
             itemNote: (item) => item.note,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
@@ -425,7 +425,7 @@ const data = {
     },
     esport: {
         title: 'Game/Esport',
-        description: 'I was a CSer, "LernHerN" is my nickname in game. I like making video for the e-sports promotion, most of my videos are non-profit, hope you enjoy them.',
+        description: 'I was a CSer, "LernHerN" is my nickname in game. I have made some non-profit videos for the e-sports promotion, hope you enjoy them.',
         promotion: 'Featured video: ',
         links: [
             { text: 'Remembrance of Counter-Strike 1.6', url: 'https://www.youtube.com/watch?v=nrUMZZiheLU', ga: 'cs_movie_1' },
