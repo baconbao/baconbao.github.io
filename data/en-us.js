@@ -32,7 +32,7 @@ const data = {
         hello: 'Hi! I am',
         name: 'BaconBao',
         akaName: 'Geng-Bao Lin',
-        intro: 'I enjoy wandering in the ocean of knowledge, and love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University.',
+        intro: 'I enjoy wandering in the ocean of knowledge, and love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University, current research interest is IT-related empirical aesthetics.',
         // intro: 'I love to explore IT application and IT-related consumer behavior, currently as a PhD student at National Taiwan University. I enjoy wandering in the ocean of knowledge, sometimes rolling, acting cute, and slapping belly in this ocean. (●\'◡\'●)',
         introEmoji: '(●\'◡\'●)',
     },
@@ -40,16 +40,16 @@ const data = {
         title: 'Research interests',
         items: [
             {
+                text: 'Empirical Aesthetic',
+            },
+            {
+                text: 'Consumer Behavior and Consumer Perception',
+            },
+            {
                 text: 'Web Application',
             },
-            {
-                text: 'Consumer Behavior',
-            },
-            {
-                text: 'Consumer Perception',
-            },
         ],
-        describe: 'Although I have some experiences in IT development, I am more interested in understanding IT consumers’ subjective feelings and thoughts when they interact with IT, particularly phenomena that involve paradox. Therefore, I am passionate about exploring the reasons (the ‘why’) and causal relationships (the ‘how’) of phenomena related to the behavior and perception of IT consumers.',
+        describe: 'Although I have some experiences in IT development, I am more interested in understanding IT consumers’ subjective feelings and thoughts when they interact with IT, such as feelings and thoughts about aesthetics. Therefore, I am passionate about exploring the reasons (the ‘why’) and causal relationships (the ‘how’) of phenomena related to the behavior and perception of IT consumers.',
         formatter: {
             itemText: (item) => `${item.text}`,
             moreDescribe: (describe) => describe,
@@ -332,27 +332,17 @@ const data = {
         title: 'Publications',
         items: [
             {
-                year: '2020',
-                authors: [
-                    { name: 'Chen-Hao Liu' },
-                    { name: 'Yun-Chia Tang' },
-                    pubSelf,
-                    { name: 'Yi-Ching Hsieh' },
-                ],
-                name: 'In mobile search, the more you see, the more you love? How consumer knowledge and screen sizes affect branding effect',
-                on: 'Sun Yat-Sen Management Review',
+                puretext: 'Geng-Bao Lin, Fiona Fui-Hoon Nah, Choon Ling Sia. (2024, January 3-6). Effects of mindfulness and emotion regulation on aesthetics: A theoretical model from hedonic perspective of processing fluency [Paper presentation]. The 57th Hawaii International Conference on System Sciences (HICSS), Honolulu, Hawaii, United States.',
+            },
+            {
+                puretext: 'Chen-Hao Liu, Yun-Chia Tang, Geng-Bao Lin, Yi-Ching Hsieh. (2020). In mobile search, the more you see, the more you love? How consumer knowledge and screen sizes affect branding effect. Sun Yat-Sen Management Review.',
                 note: 'doi:10.6160/SYSMR.202009_28(3).0001',
                 links: [
                     { name: 'LINK', url: 'http://mgtr.cm.nsysu.edu.tw/fulljournal_process.php?id=148&pno=M5f6998fdb6ae0&p=379', ga: 'paper_2020-1' },
                 ],
             },
             {
-                year: '2016',
-                authors: [
-                    pubSelf,
-                ],
-                name: 'The Effect of Repetition of Keyword Advertising on Brand Recognition and Attitude with Persuasion Knowledge Model and Screen Size',
-                on: 'National Central University, Master Thesis',
+                puretext: 'Geng-Bao Lin. (2016). The Effect of Repetition of Keyword Advertising on Brand Recognition and Attitude with Persuasion Knowledge Model and Screen Size. National Central University. Master Thesis.',
                 note: '',
                 links: [
                     { name: 'LINK', url: 'https://hdl.handle.net/11296/x26pvn', ga: 'master_thesis' },
@@ -360,7 +350,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}. (${item.year}). "${item.name}." ${item.on}.`,
+            itemText: (item) => `${item.puretext}`,
             itemNote: (item) => item.note,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
@@ -425,7 +415,7 @@ const data = {
     },
     esport: {
         title: 'Game/Esport',
-        description: 'I was a CSer, "LernHerN" is my nickname in game. I have made some non-profit videos for the e-sports promotion, hope you enjoy them.',
+        description: 'I was a CSer, "LernHerN" is my nickname in game. I have made some non-profit videos for the esport promotion in an era when esport was not yet popular. Hope you enjoy them.',
         promotion: 'Featured video: ',
         links: [
             { text: 'Remembrance of Counter-Strike 1.6', url: 'https://www.youtube.com/watch?v=nrUMZZiheLU', ga: 'cs_movie_1' },

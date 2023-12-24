@@ -406,11 +406,11 @@ const AppMain = (data) => {
                 Sub={() => (
                     <>
                         <ResIntBlock data={data.researchInterest} symbol={symbol} />
-                        <EduBlock data={data.edu} symbol={symbol} />
-                        <ExpBlock data={data.exp} symbol={symbol} />
                         <PublicationBlock data={data.publication} symbol={symbol} />
                         <InventBlock data={data.invent} symbol={symbol} />
                         <AwardBlock data={data.award} symbol={symbol} />
+                        <EduBlock data={data.edu} symbol={symbol} />
+                        <ExpBlock data={data.exp} symbol={symbol} />
                         <CertificationBlock data={data.certification} />
                         <NonprofitBlock data={data.nonprofit} symbol={symbol} />
                         <EsportBlock data={data.esport} symbol={symbol} />

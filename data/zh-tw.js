@@ -30,7 +30,7 @@ const data = {
         hello: '嗨！我是',
         name: 'BaconBao',
         akaName: '林耕葆',
-        intro: '我喜歡徜徉在知識的海洋裡，熱愛探索IT應用與IT相關的消費者行為，目前在臺灣大學攻讀博士學位。',
+        intro: '我喜歡徜徉在知識的海洋裡，熱愛探索IT應用與IT相關的消費者行為。我目前在臺灣大學攻讀博士學位，IT相關的經驗美學是我當前主要的研究興趣。',
         // intro: '熱愛探索IT應用與IT相關的消費者行為，目前在臺灣大學攻讀博士學位。我喜歡徜徉在知識的海洋裡，有時在這片海洋裡翻滾、賣萌、拍肚皮。 (●\'◡\'●)',
         introEmoji: '(●\'◡\'●)',
     },
@@ -38,16 +38,16 @@ const data = {
         title: '研究興趣',
         items: [
             {
+                text: '經驗美學',
+            },
+            {
+                text: '消費者行為與消費者感知',
+            },
+            {
                 text: 'Web應用',
             },
-            {
-                text: '消費者行為',
-            },
-            {
-                text: '消費者感知',
-            },
         ],
-        describe: '雖然我有不少IT開發的經驗，但我更想了解IT消費者與IT互動時的主觀感受與想法。\n因此，我熱愛探索有關IT消費者感知與行為的現象，特別是涉及矛盾的現象，包含成因(‘why’)與其因果關係(‘how’)。',
+        describe: '雖然我有不少IT開發的經驗，但我更想了解IT消費者與IT互動時的主觀感受與想法，比如有關美學的感受與想法。\n因此，我熱愛探索有關IT消費者感知與行為的現象，包含成因(‘why’)與其因果關係(‘how’)。',
         formatter: {
             itemText: (item) => `${item.text}`,
             moreDescribe: (describe) => describe,
@@ -330,27 +330,17 @@ const data = {
         title: '著作',
         items: [
             {
-                year: '2020',
-                authors: [
-                    { name: '劉成豪' },
-                    { name: '唐運佳' },
-                    pubSelf,
-                    { name: '謝依靜' },
-                ],
-                name: '行動搜尋下，你會越看越愛它嗎？使用者知識與螢幕尺寸如何影響品牌效果',
-                on: '中山管理評論',
+                puretext: 'Geng-Bao Lin, Fiona Fui-Hoon Nah, Choon Ling Sia. (2024, January 3-6). Effects of mindfulness and emotion regulation on aesthetics: A theoretical model from hedonic perspective of processing fluency [Paper presentation]. The 57th Hawaii International Conference on System Sciences (HICSS), Honolulu, Hawaii, United States.',
+            },
+            {
+                puretext: '劉成豪, 唐運佳, 林耕葆, 謝依靜. (2020) 行動搜尋下，你會越看越愛它嗎？使用者知識與螢幕尺寸如何影響品牌效果. 中山管理評論',
                 note: 'doi:10.6160/SYSMR.202009_28(3).0001',
                 links: [
                     { name: 'LINK', url: 'http://mgtr.cm.nsysu.edu.tw/fulljournal_process.php?id=148&pno=M5f6998fdb6ae0&p=379', ga: 'paper_2020-1' },
                 ],
             },
             {
-                year: '2016',
-                authors: [
-                    pubSelf,
-                ],
-                name: '以說服知識模式與螢幕尺寸探討關鍵字廣告的重複曝光對品牌記憶與品牌態度之影響',
-                on: '國立中央大學，碩士論文',
+                puretext: '林耕葆. (2016) 以說服知識模式與螢幕尺寸探討關鍵字廣告的重複曝光對品牌記憶與品牌態度之影響. 國立中央大學. 碩士論文',
                 note: '',
                 links: [
                     { name: 'LINK', url: 'https://hdl.handle.net/11296/x26pvn', ga: 'master_thesis' },
@@ -358,7 +348,7 @@ const data = {
             },
         ],
         formatter: {
-            itemText: (item) => `${item.authors.map((i) => i.name).join(symbol.and)}，（${item.year}），“${item.name}”，${item.on}.`,
+            itemText: (item) => `${item.puretext}`,
             itemNote: (item) => item.note,
             linkText: (link) => link.name,
             linkGa: (link) => link.ga,
@@ -423,7 +413,7 @@ const data = {
     },
     esport: {
         title: '遊戲/電競',
-        description: '我曾是個CS玩家，LernHerN 是我在遊戲中使用的名稱，我過去製作了一些非營利影片以試圖推廣電競，希望你會喜歡。',
+        description: '我曾是個CS玩家，LernHerN 是我在遊戲中使用的名稱。在電競還不盛行的年代時，我當時製作了一些非營利影片嘗試推廣電競。希望你會喜歡。',
         promotion: '精選兩部影片：',
         links: [
             { text: 'Remembrance of Counter-Strike 1.6', url: 'https://www.youtube.com/watch?v=nrUMZZiheLU', ga: 'cs_movie_1' },
