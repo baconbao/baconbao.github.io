@@ -36,10 +36,10 @@ const data = {
         title: 'Research interests',
         items: [
             {
-                text: 'Empirical Aesthetic',
+                text: 'IT-related Empirical Aesthetics',
             },
             {
-                text: 'Consumer Behavior and Consumer Perception',
+                text: 'IT-related Consumer Behavior and Perception',
             },
             {
                 text: 'Web Application',
