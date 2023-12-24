@@ -34,10 +34,10 @@ const data = {
         title: '研究興趣',
         items: [
             {
-                text: 'IT相關經驗美學',
+                text: 'IT相關的經驗美學',
             },
             {
-                text: 'IT相關消費者行為與感知',
+                text: 'IT相關的消費者行為與感知',
             },
             {
                 text: 'Web應用',
