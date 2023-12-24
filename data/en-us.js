@@ -15,10 +15,6 @@ const patentSelf = {
     name: 'Geng-Bao Lin',
     self: true,
 };
-const pubSelf = {
-    name: 'Geng-Bao Lin',
-    self: true,
-};
 
 const data = {
     lang: 'en-us',

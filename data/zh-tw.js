@@ -15,10 +15,6 @@ const patentSelf = {
     name: '林耕葆',
     self: true,
 };
-const pubSelf = {
-    name: '林耕葆',
-    self: true,
-};
 
 const data = {
     lang: 'zh-tw',
