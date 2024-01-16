@@ -342,7 +342,7 @@ const data = {
                 ],
             },
             {
-                puretext: 'Geng-Bao Lin. (2016). The Effect of Repetition of Keyword Advertising on Brand Recognition and Attitude with Persuasion Knowledge Model and Screen Size. National Central University. Master Thesis.',
+                puretext: 'Geng-Bao Lin. (2016). The effect of repetition of keyword advertising on brand recognition and attitude with persuasion knowledge model and screen size. National Central University. Master Thesis.',
                 note: '',
                 links: [
                     { name: 'LINK', url: 'https://hdl.handle.net/11296/x26pvn', ga: 'master_thesis' },
