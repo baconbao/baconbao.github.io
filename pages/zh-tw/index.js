@@ -7,9 +7,8 @@
 
 import AppMain from '../../components/AppMain';
 import data from '../../data/zh-tw';
-import LangRedirectLogics from '../_lang-redirect-logics.js';
 
-LangRedirectLogics();
+import '../_lang-redirect-logics';
 
 const Page = () => AppMain(data);
 
