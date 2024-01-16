@@ -328,7 +328,11 @@ const data = {
         title: 'Publications',
         items: [
             {
-                puretext: 'Geng-Bao Lin, Fiona Fui-Hoon Nah, Choon Ling Sia. (2024, January 3-6). Effects of mindfulness and emotion regulation on aesthetics: A theoretical model from hedonic perspective of processing fluency [Paper presentation]. The 57th Hawaii International Conference on System Sciences (HICSS), Honolulu, Hawaii, United States.',
+                puretext: 'Geng-Bao Lin, Fiona Fui-Hoon Nah, Choon Ling Sia. (2024). Effects of mindfulness and emotion regulation on aesthetics: A theoretical model from hedonic perspective of processing fluency. In Proceedings of the 57th Hawaii International Conference on System Sciences (pp. 4683-4692). Hawaii International Conference on System Sciences (HICSS).',
+                note: 'ISBN:978-0-9981331-7-1',
+                links: [
+                    { name: 'LINK', url: 'https://hdl.handle.net/10125/106947', ga: 'paper_2024-1' },
+                ],
             },
             {
                 puretext: 'Chen-Hao Liu, Yun-Chia Tang, Geng-Bao Lin, Yi-Ching Hsieh. (2020). In mobile search, the more you see, the more you love? How consumer knowledge and screen sizes affect branding effect. Sun Yat-Sen Management Review.',
@@ -411,7 +415,7 @@ const data = {
     },
     esport: {
         title: 'Game/Esport',
-        description: 'I was a CSer, "LernHerN" is my nickname in game. I have made some non-profit videos for the esport promotion in an era when esport was not yet popular. Hope you enjoy them.',
+        description: 'I was a CSer, "LernHerN" is my nickname. I have made some non-profit videos for the esport promotion in an era when esport was not yet popular. Hope you enjoy them.',
         promotion: 'Featured video: ',
         links: [
             { text: 'Remembrance of Counter-Strike 1.6', url: 'https://www.youtube.com/watch?v=nrUMZZiheLU', ga: 'cs_movie_1' },

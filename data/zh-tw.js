@@ -326,7 +326,11 @@ const data = {
         title: '著作',
         items: [
             {
-                puretext: 'Geng-Bao Lin, Fiona Fui-Hoon Nah, Choon Ling Sia. (2024, January 3-6). Effects of mindfulness and emotion regulation on aesthetics: A theoretical model from hedonic perspective of processing fluency [Paper presentation]. The 57th Hawaii International Conference on System Sciences (HICSS), Honolulu, Hawaii, United States.',
+                puretext: 'Geng-Bao Lin, Fiona Fui-Hoon Nah, Choon Ling Sia. (2024). Effects of mindfulness and emotion regulation on aesthetics: A theoretical model from hedonic perspective of processing fluency. In Proceedings of the 57th Hawaii International Conference on System Sciences (pp. 4683-4692). Hawaii International Conference on System Sciences (HICSS).',
+                note: 'ISBN:978-0-9981331-7-1',
+                links: [
+                    { name: 'LINK', url: 'https://hdl.handle.net/10125/106947', ga: 'paper_2024-1' },
+                ],
             },
             {
                 puretext: '劉成豪, 唐運佳, 林耕葆, 謝依靜. (2020) 行動搜尋下，你會越看越愛它嗎？使用者知識與螢幕尺寸如何影響品牌效果. 中山管理評論',
@@ -409,7 +413,7 @@ const data = {
     },
     esport: {
         title: '遊戲/電競',
-        description: '我曾是個CS玩家，LernHerN 是我在遊戲中使用的名稱。在電競還不盛行的年代時，我當時製作了一些非營利影片嘗試推廣電競。希望你會喜歡。',
+        description: '我曾是個CS玩家，LernHerN 是我使用的名稱。在電競還不盛行的年代時，我當時製作了一些非營利影片嘗試推廣電競。希望你會喜歡。',
         promotion: '精選兩部影片：',
         links: [
             { text: 'Remembrance of Counter-Strike 1.6', url: 'https://www.youtube.com/watch?v=nrUMZZiheLU', ga: 'cs_movie_1' },
